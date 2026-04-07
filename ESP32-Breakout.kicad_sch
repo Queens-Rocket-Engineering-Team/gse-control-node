@@ -1624,6 +1624,17 @@
 		)
 		(uuid "41e7dccb-70b5-4d5a-b7c5-1f38c5e63d9e")
 	)
+	(hierarchical_label "Actuator_1_Control"
+		(shape output)
+		(at 81.28 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e6165c9-7fdf-4d4c-ad4c-abcc9dd92c20")
+	)
 	(hierarchical_label "Actuator_Nitrous_Control"
 		(shape output)
 		(at 80.01 72.39 180)
@@ -1634,17 +1645,6 @@
 			(justify right)
 		)
 		(uuid "1f648e4c-fc33-491b-8269-132dd3b7c2ec")
-	)
-	(hierarchical_label "Actuator_2_Control"
-		(shape output)
-		(at 80.01 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22e38afb-bac5-4a3e-879a-0d2e74a48f97")
 	)
 	(hierarchical_label "DRDY2"
 		(shape input)
@@ -1690,28 +1690,6 @@
 		)
 		(uuid "4e7c6243-3aea-4629-8ae3-e7dc8ef51e5d")
 	)
-	(hierarchical_label "Fan_1_Control"
-		(shape output)
-		(at 81.28 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66c52960-0ebc-44a0-bdb4-f0113a473e66")
-	)
-	(hierarchical_label "Actuator_1_Control"
-		(shape output)
-		(at 80.01 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e2b9478-eb1b-4fa6-ae15-1c85ddfa22ef")
-	)
 	(hierarchical_label "12_Good"
 		(shape input)
 		(at 78.74 77.47 180)
@@ -1723,16 +1701,16 @@
 		)
 		(uuid "90d946f8-4579-4ecf-b52b-fda2759f0ac5")
 	)
-	(hierarchical_label "I2C_SCL"
-		(shape bidirectional)
-		(at 133.35 80.01 0)
+	(hierarchical_label "Actuator_2_Control"
+		(shape output)
+		(at 81.28 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "91522016-e4d1-4455-ae69-14e253b55fa1")
+		(uuid "ac1b6ed1-93a6-48f9-9cad-00d024db2552")
 	)
 	(hierarchical_label "DRDY1"
 		(shape input)
@@ -1745,17 +1723,6 @@
 		)
 		(uuid "b0bc4a4a-f43a-4d9a-a9e0-e83ca54d7dca")
 	)
-	(hierarchical_label "Fan_1_PWM"
-		(shape output)
-		(at 81.28 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b143ee46-75c6-4985-8ad4-6fdee98d022e")
-	)
 	(hierarchical_label "Fan_2_Control"
 		(shape output)
 		(at 81.28 67.31 180)
@@ -1767,7 +1734,18 @@
 		)
 		(uuid "b556414c-8ae2-4e6b-a05d-5aaafae41bf6")
 	)
-	(hierarchical_label "I2C_SDA"
+	(hierarchical_label "Fan_1_Control"
+		(shape output)
+		(at 80.01 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc9e1ce0-dfc6-44df-81a9-d69f98ead725")
+	)
+	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
 		(at 133.35 77.47 0)
 		(effects
@@ -1776,7 +1754,18 @@
 			)
 			(justify left)
 		)
-		(uuid "c303757e-a1ac-4b58-9b44-3598547db467")
+		(uuid "c20bbfe1-4104-483a-a949-ba213f01298d")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 133.35 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db1a9233-1f8e-48a4-9a11-1f10f0910fa1")
 	)
 	(hierarchical_label "Fan_2_PWM"
 		(shape output)
@@ -1799,6 +1788,17 @@
 			(justify left)
 		)
 		(uuid "ef0bba47-2764-4f5b-aab5-b9015c82416f")
+	)
+	(hierarchical_label "Fan_1_PWM"
+		(shape output)
+		(at 80.01 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb37b9a9-e31d-4073-8de8-5eeec69d8b3c")
 	)
 	(symbol
 		(lib_id "PCM_Espressif:ESP32-S2-DevKitC-1")
