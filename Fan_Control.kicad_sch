@@ -306,41 +306,30 @@
 		)
 		(uuid "f4095bc7-cb2d-4375-b569-5c70fb5216da")
 	)
-	(hierarchical_label "Fan_1_Control"
-		(shape input)
-		(at 77.47 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1033dfca-d46d-4c9a-9a88-cd20fdd85382")
-	)
-	(hierarchical_label "Fan_2_Control"
-		(shape input)
-		(at 137.16 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15c815e4-43a5-46d1-be1b-93907b8cf126")
-	)
-	(hierarchical_label "Fan_1_PWM"
-		(shape input)
-		(at 77.47 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46594754-6c34-41fd-8273-f82483439864")
-	)
 	(hierarchical_label "To_GND_2"
 		(shape output)
+		(at 119.38 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ada1cf2-066a-4e45-bd31-e6846f953b66")
+	)
+	(hierarchical_label "To_GND_1"
+		(shape output)
+		(at 57.15 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48ce2899-3dbe-4d0e-b772-612ef89bf0ea")
+	)
+	(hierarchical_label "Fan_2_PWM"
+		(shape input)
 		(at 142.24 124.46 270)
 		(effects
 			(font
@@ -348,31 +337,9 @@
 			)
 			(justify right)
 		)
-		(uuid "834c5945-764d-404c-a1b1-409c4099ad62")
+		(uuid "55965391-2b58-4b0b-ab46-96927866efc8")
 	)
-	(hierarchical_label "To_GND_1"
-		(shape output)
-		(at 81.28 124.46 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1b7b8ad-20f3-4568-91c2-f8d234b44106")
-	)
-	(hierarchical_label "Fan_1_Power"
-		(shape input)
-		(at 57.15 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8d4ba3a-0d58-4e8a-877a-be56126e0cd9")
-	)
-	(hierarchical_label "Fan_2_PWM"
+	(hierarchical_label "Fan_2_Control"
 		(shape input)
 		(at 137.16 113.03 180)
 		(effects
@@ -381,18 +348,51 @@
 			)
 			(justify right)
 		)
-		(uuid "c09241b6-1174-4a03-830e-fd537a9508f0")
+		(uuid "64f172ab-2f4a-4e05-ad67-e12fec29f042")
 	)
-	(hierarchical_label "Fan_2_Power"
+	(hierarchical_label "Fan_1_Control"
 		(shape input)
-		(at 119.38 104.14 180)
+		(at 77.47 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "eec0687c-79d7-435a-9571-b46f77646dc1")
+		(uuid "7e9ca6b5-b471-4b96-970b-bf2e201b32e1")
+	)
+	(hierarchical_label "Fan_1_Power"
+		(shape input)
+		(at 77.47 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8eab11c1-8141-4e00-aea6-4e1ecfeca6d9")
+	)
+	(hierarchical_label "Fan_2_Power"
+		(shape input)
+		(at 137.16 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f205f73-939d-41b4-9d7e-7f1f0422e83d")
+	)
+	(hierarchical_label "Fan_1_PWM"
+		(shape input)
+		(at 81.28 124.46 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c22d90c8-57f9-4298-8e2e-b87673f0925f")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")

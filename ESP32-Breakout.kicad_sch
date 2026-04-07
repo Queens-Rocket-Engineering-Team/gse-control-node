@@ -1396,6 +1396,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 41.91) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1395412a-bcaa-4a07-ae3e-a5ec69908bb0")
+	)
+	(wire
+		(pts
 			(xy 132.08 77.47) (xy 133.35 77.47)
 		)
 		(stroke
@@ -1605,16 +1615,6 @@
 		(uuid "d1f6781f-8bca-4ef5-a783-59996e6e6e8c")
 	)
 	(label "WIFI_IND"
-		(at 151.13 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2386dfa4-c8c4-497d-8d1e-f58be650a408")
-	)
-	(label "WIFI_IND"
 		(at 166.37 91.44 0)
 		(effects
 			(font
@@ -1623,6 +1623,16 @@
 			(justify left bottom)
 		)
 		(uuid "41e7dccb-70b5-4d5a-b7c5-1f38c5e63d9e")
+	)
+	(label "WIFI_IND"
+		(at 140.97 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e664e433-11c7-465d-a207-c8b5e3fc3b18")
 	)
 	(hierarchical_label "Actuator_1_Control"
 		(shape output)
@@ -1646,16 +1656,16 @@
 		)
 		(uuid "1f648e4c-fc33-491b-8269-132dd3b7c2ec")
 	)
-	(hierarchical_label "DRDY2"
+	(hierarchical_label "DRDY3"
 		(shape input)
-		(at 133.35 54.61 0)
+		(at 133.35 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "252e475e-4f99-4a63-87bd-a72d6df42025")
+		(uuid "23d0cc01-5370-453e-bf3e-48e9f87b47e3")
 	)
 	(hierarchical_label "Heat_1_Power"
 		(shape output)
@@ -1701,6 +1711,17 @@
 		)
 		(uuid "90d946f8-4579-4ecf-b52b-fda2759f0ac5")
 	)
+	(hierarchical_label "DRDY2"
+		(shape input)
+		(at 133.35 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9feecbf3-81be-44fe-8c30-177652b0dac9")
+	)
 	(hierarchical_label "Actuator_2_Control"
 		(shape output)
 		(at 81.28 49.53 180)
@@ -1711,17 +1732,6 @@
 			(justify right)
 		)
 		(uuid "ac1b6ed1-93a6-48f9-9cad-00d024db2552")
-	)
-	(hierarchical_label "DRDY1"
-		(shape input)
-		(at 133.35 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b0bc4a4a-f43a-4d9a-a9e0-e83ca54d7dca")
 	)
 	(hierarchical_label "Fan_2_Control"
 		(shape output)
@@ -1756,6 +1766,17 @@
 		)
 		(uuid "c20bbfe1-4104-483a-a949-ba213f01298d")
 	)
+	(hierarchical_label "DRDY1"
+		(shape input)
+		(at 133.35 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cec59e8e-455b-447c-a7b1-b7149b3f5ba9")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 133.35 80.01 0)
@@ -1777,17 +1798,6 @@
 			(justify right)
 		)
 		(uuid "ec02bb57-4454-4021-bd27-4663c9ef9ff0")
-	)
-	(hierarchical_label "DRDY3"
-		(shape input)
-		(at 133.35 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef0bba47-2764-4f5b-aab5-b9015c82416f")
 	)
 	(hierarchical_label "Fan_1_PWM"
 		(shape output)

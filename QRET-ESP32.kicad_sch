@@ -920,6 +920,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 40.64) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f4b622-437d-492c-a3a7-7383063d53f9")
+	)
+	(wire
+		(pts
 			(xy 245.11 55.88) (xy 248.92 55.88)
 		)
 		(stroke
@@ -1060,6 +1070,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 40.64) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861013c1-c914-48b3-8150-c63542dc4508")
+	)
+	(wire
+		(pts
 			(xy 238.76 66.04) (xy 245.11 66.04)
 		)
 		(stroke
@@ -1107,6 +1127,26 @@
 			(type default)
 		)
 		(uuid "adb16f62-5fcd-4f08-9c21-2cf8533111cc")
+	)
+	(wire
+		(pts
+			(xy 129.54 41.91) (xy 132.08 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af66b94a-32a2-43bb-8aad-2ff9c4cab608")
+	)
+	(wire
+		(pts
+			(xy 176.53 41.91) (xy 173.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fc21f2-a40b-40af-8041-92d1fbbe1c76")
 	)
 	(wire
 		(pts
@@ -1383,6 +1423,28 @@
 		(uuid "18abb3cc-f67c-4642-9036-5ec5ca8eab13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.9714 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heat_2_Power"
+		(shape input)
+		(at 153.67 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18fce23d-2ddf-40a5-a5dc-d9edc0b440a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.718 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,6 +2070,28 @@
 			)
 		)
 	)
+	(global_label "Heat_1_Power"
+		(shape input)
+		(at 138.43 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a417decd-8020-4512-bd3f-b7f97334036c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.382 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Nitrous_Control"
 		(shape input)
 		(at 30.48 69.85 180)
@@ -2206,28 +2290,6 @@
 			)
 		)
 	)
-	(global_label "Heat_1_Power"
-		(shape input)
-		(at 132.08 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3de44fe-48d6-4b8b-82d8-7bcc62731f93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.032 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DRDY1"
 		(shape input)
 		(at 257.81 31.75 0)
@@ -2312,28 +2374,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heat_2_Power"
-		(shape input)
-		(at 173.99 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e39a08be-0156-401e-a6b4-61d481401878")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.038 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3089,6 +3129,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 129.54 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6411ad9a-a3bd-4411-902c-0c63d6823074")
+		(property "Reference" "#PWR07"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167f5a70-6104-4267-8d8d-eebc4eaedd4e")
+		)
+		(instances
+			(project ""
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 264.16 85.09 0)
 		(unit 1)
@@ -3153,6 +3259,72 @@
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 176.53 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ad0a4c-b537-43de-9778-58ad75d2545c")
+		(property "Reference" "#PWR08"
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c30c6a5d-7aaa-459a-a8ac-6edf2f8199b0")
+		)
+		(instances
+			(project ""
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
