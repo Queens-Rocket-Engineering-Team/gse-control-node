@@ -43890,6 +43890,212 @@
 		(layer "Edge.Cuts")
 		(uuid "0e1f0cce-6bc7-4f4d-9223-442c8c7262b5")
 	)
+	(gr_text "Ground Support Equipment PCB\nDraft 2\n2026-04-07"
+		(at 187.5 127 0)
+		(layer "F.SilkS")
+		(uuid "0cef70ee-c15b-4f5f-a21d-147be0205f6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "12V Step-Down"
+		(at 111.6 98.4 0)
+		(layer "F.SilkS")
+		(uuid "1e0eb6a1-3f52-45b8-aead-92b8cd26c01c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Actuator 2"
+		(at 97.4 64.29 0)
+		(layer "F.SilkS")
+		(uuid "26218872-8537-4f5e-8ed5-48ef31e3077b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Load Cell"
+		(at 191.1 80.5 0)
+		(layer "F.SilkS")
+		(uuid "3513d6e4-d2c4-454f-8849-e41e6946eddd")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Heating Control System 1"
+		(at 172.5 62.4 0)
+		(layer "F.SilkS")
+		(uuid "40e074bc-b16d-4f6f-9092-42c4db4b8381")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Power Sequencing"
+		(at 157.3 120.9 0)
+		(layer "F.SilkS")
+		(uuid "46b2e8b5-194b-4f21-8def-6cc8960a6c72")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Nitrous Actuator"
+		(at 96.1 87.7 0)
+		(layer "F.SilkS")
+		(uuid "4bed1f62-a0c5-4724-bab8-59e73571d39f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5.3V Step-Down"
+		(at 109.4 67 0)
+		(layer "F.SilkS")
+		(uuid "55051607-490b-4c40-857f-e154bec670e7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Heating Control System 2"
+		(at 180 113.2 0)
+		(layer "F.SilkS")
+		(uuid "5571b243-ca01-43d1-bfa8-dd1d21a17c7d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3.3V Regulation"
+		(at 153.5 104 0)
+		(layer "F.SilkS")
+		(uuid "65ef6609-780a-4acf-9ae5-44ddec0c5185")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V Regulation"
+		(at 155.6 78 0)
+		(layer "F.SilkS")
+		(uuid "68511425-6494-44ed-b119-6b52abf59fbe")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Fans 1&2"
+		(at 101.8 80.5 0)
+		(layer "F.SilkS")
+		(uuid "69f0dea6-097b-4281-b834-ac681d2cc20a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "WIFI ON"
+		(at 159.8 62.6 0)
+		(layer "F.SilkS")
+		(uuid "ae1466bc-1b62-4f05-b2d1-24afd17f68bf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Notes pre-review:\nIs there a better place to put Power Sequencing?\nThis one puts it close to 3.3V and 5V, but not 12V.\n\nIs there a better way to place things to avoid snaking lines over/under eachother?\n\nAre the sockets too close to eachother to be practically soldered/used?\n\nShould I be worried about capacitance of the 2 inner plates in the zones devoid of GND vias?\n"
+		(at 88.4 148.1 0)
+		(layer "F.SilkS")
+		(uuid "eecca8f4-b593-4031-a833-569929864383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V ON"
+		(at 125.8 120.5 90)
+		(layer "F.SilkS")
+		(uuid "f8516a5e-8f09-4bca-8dfb-569f67e796b1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V Input"
+		(at 95.7 121.9 0)
+		(layer "F.SilkS")
+		(uuid "f9ca231a-df5f-428b-aaef-7848ba48cc73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Actuator 1"
+		(at 99.6 61.7 0)
+		(layer "F.SilkS")
+		(uuid "fb8dd7be-e137-44af-9bfa-7a25b2f8447f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 170.7 64.839998)
 		(end 170.686249 64.853749)
