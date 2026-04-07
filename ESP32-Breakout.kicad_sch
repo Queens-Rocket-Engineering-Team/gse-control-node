@@ -1456,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 77.47) (xy 81.28 77.47)
+			(xy 78.74 77.47) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 74.93) (xy 81.28 74.93)
+			(xy 78.74 74.93) (xy 81.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1493,6 +1493,26 @@
 			(type default)
 		)
 		(uuid "61536507-3663-4baa-878c-0293e9bb5264")
+	)
+	(wire
+		(pts
+			(xy 80.01 52.07) (xy 81.28 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732ad050-24a1-4e25-a312-2820beae157b")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 81.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea9103d-34ad-4bb8-a75c-f96338a04f84")
 	)
 	(wire
 		(pts
@@ -1604,6 +1624,28 @@
 		)
 		(uuid "41e7dccb-70b5-4d5a-b7c5-1f38c5e63d9e")
 	)
+	(hierarchical_label "Actuator_Nitrous_Control"
+		(shape output)
+		(at 80.01 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f648e4c-fc33-491b-8269-132dd3b7c2ec")
+	)
+	(hierarchical_label "Actuator_2_Control"
+		(shape output)
+		(at 80.01 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22e38afb-bac5-4a3e-879a-0d2e74a48f97")
+	)
 	(hierarchical_label "DRDY2"
 		(shape input)
 		(at 133.35 54.61 0)
@@ -1626,16 +1668,16 @@
 		)
 		(uuid "31d63277-a7b1-4ebd-bc4d-d3adeadd4d0d")
 	)
-	(hierarchical_label "Actuator_Nitrous_Control"
-		(shape output)
-		(at 80.01 77.47 180)
+	(hierarchical_label "24_Good"
+		(shape input)
+		(at 78.74 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "366b009d-509d-420d-aed4-73eb4a88681d")
+		(uuid "372d2878-d4af-44a1-b74b-57b7d921b36d")
 	)
 	(hierarchical_label "Heat_2_Power"
 		(shape output)
@@ -1659,16 +1701,27 @@
 		)
 		(uuid "66c52960-0ebc-44a0-bdb4-f0113a473e66")
 	)
-	(hierarchical_label "Actuator_2_Control"
+	(hierarchical_label "Actuator_1_Control"
 		(shape output)
-		(at 80.01 74.93 180)
+		(at 80.01 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "81c0e6ce-e5ba-4cba-84b7-3dd3193aef05")
+		(uuid "6e2b9478-eb1b-4fa6-ae15-1c85ddfa22ef")
+	)
+	(hierarchical_label "12_Good"
+		(shape input)
+		(at 78.74 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90d946f8-4579-4ecf-b52b-fda2759f0ac5")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
@@ -1680,28 +1733,6 @@
 			(justify left)
 		)
 		(uuid "91522016-e4d1-4455-ae69-14e253b55fa1")
-	)
-	(hierarchical_label "24_Good"
-		(shape input)
-		(at 81.28 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9201f364-dd50-49b2-ab85-b34528da31aa")
-	)
-	(hierarchical_label "12_Good"
-		(shape input)
-		(at 81.28 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9375950b-923c-4948-9619-0fe884a27c94")
 	)
 	(hierarchical_label "DRDY1"
 		(shape input)
@@ -1735,17 +1766,6 @@
 			(justify right)
 		)
 		(uuid "b556414c-8ae2-4e6b-a05d-5aaafae41bf6")
-	)
-	(hierarchical_label "Actuator_1_Control"
-		(shape output)
-		(at 80.01 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b96ab456-41d0-46c4-b0c8-4d794eec6750")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
