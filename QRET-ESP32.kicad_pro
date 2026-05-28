@@ -707,20 +707,8 @@
       "ADC1"
     ],
     [
-      "556d04df-57a0-4dc0-ae0b-47fe659dab9b",
-      "ADC2"
-    ],
-    [
-      "b19d2a7f-9c2e-44bc-933f-cbac7e8477cb",
-      "ADC3"
-    ],
-    [
       "6a16d2ee-e303-4211-9829-9eeec2519e33",
       "Actuator_Control"
-    ],
-    [
-      "0c734fb5-09c2-4b1e-989d-a08b4d481f06",
-      "Control_Heating"
     ],
     [
       "cec7ca12-a0bf-4031-9c0d-c0b354201f18",
