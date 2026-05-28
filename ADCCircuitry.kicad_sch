@@ -2590,14 +2590,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "C31")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "C37")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C25")
 					(unit 1)
@@ -2690,14 +2682,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "C32")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "C38")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C26")
 					(unit 1)
@@ -2775,14 +2759,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0164")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0177")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0151")
 					(unit 1)
@@ -2964,14 +2940,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "C30")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "C36")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C24")
 					(unit 1)
@@ -3193,14 +3161,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "U9")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "U7")
 					(unit 1)
@@ -3375,14 +3335,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "D14")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D6")
 					(unit 1)
@@ -3461,14 +3413,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0171")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0184")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0158")
 					(unit 1)
@@ -3561,14 +3505,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "C34")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "C40")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C28")
 					(unit 1)
@@ -3647,14 +3583,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0185")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0159")
 					(unit 1)
@@ -3732,14 +3660,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0174")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0187")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0161")
 					(unit 1)
@@ -3817,14 +3737,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0166")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0179")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0153")
 					(unit 1)
@@ -4003,14 +3915,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "R35")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R25")
 					(unit 1)
@@ -4167,14 +4071,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "R33")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R23")
 					(unit 1)
@@ -4331,14 +4227,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "R31")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R21")
 					(unit 1)
@@ -4416,14 +4304,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0165")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0178")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0152")
 					(unit 1)
@@ -4501,14 +4381,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0182")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0156")
 					(unit 1)
@@ -4682,14 +4554,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "D17")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D9")
 					(unit 1)
@@ -4846,14 +4710,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "R29")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "R34")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R24")
 					(unit 1)
@@ -4931,14 +4787,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0163")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0176")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0150")
 					(unit 1)
@@ -5017,14 +4865,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0173")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0186")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0160")
 					(unit 1)
@@ -5199,14 +5039,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "D16")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D8")
 					(unit 1)
@@ -5284,14 +5116,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0168")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0181")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0155")
 					(unit 1)
@@ -5370,14 +5194,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0170")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0183")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0157")
 					(unit 1)
@@ -5470,14 +5286,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "C35")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "C41")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C29")
 					(unit 1)
@@ -5555,14 +5363,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0162")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0175")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0149")
 					(unit 1)
@@ -5736,14 +5536,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "D15")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D7")
 					(unit 1)
@@ -5900,14 +5692,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "R32")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R22")
 					(unit 1)
@@ -6000,14 +5784,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "C33")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "C39")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C27")
 					(unit 1)
@@ -6085,14 +5861,6 @@
 		)
 		(instances
 			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/556d04df-57a0-4dc0-ae0b-47fe659dab9b"
-					(reference "#PWR0167")
-					(unit 1)
-				)
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/b19d2a7f-9c2e-44bc-933f-cbac7e8477cb"
-					(reference "#PWR0180")
-					(unit 1)
-				)
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0154")
 					(unit 1)
