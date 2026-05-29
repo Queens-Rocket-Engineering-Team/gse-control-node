@@ -682,7 +682,7 @@
         "uuid": "24817451-dfe0-4b9a-9d93-7304529c9d58"
       }
     ],
-    "used_designators": "U1,SW1-2,R2-4,R15,R26-27,J7,D1,C30-34,CR1,#PWR8,#PWR10-12,#PWR14-18,#PWR103-105,#PWR110",
+    "used_designators": "#PWR19,#PWR21,J1,J8",
     "variants": []
   },
   "sheets": [
@@ -695,8 +695,12 @@
       "ADC1"
     ],
     [
+      "9cf28330-c8ca-424a-aab2-bcebd5b04616",
+      "Fan Control 1"
+    ],
+    [
       "3fe78498-f3da-4a4e-905d-c6815bbc6a4f",
-      "Load_Cell"
+      "Load Cell 1"
     ],
     [
       "ee31919e-6383-4dab-aec3-a18ec94a437b",
@@ -707,12 +711,12 @@
       "ESP32 Breakout"
     ],
     [
-      "6a16d2ee-e303-4211-9829-9eeec2519e33",
-      "Actuator_Control"
+      "3178ca55-81b8-4bea-837c-8a6c63e16663",
+      "Fan Control 2"
     ],
     [
-      "cec7ca12-a0bf-4031-9c0d-c0b354201f18",
-      "Fan_Control"
+      "6a16d2ee-e303-4211-9829-9eeec2519e33",
+      "Actuator_Control"
     ]
   ],
   "text_variables": {},
