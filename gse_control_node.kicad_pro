@@ -682,13 +682,17 @@
         "uuid": "24817451-dfe0-4b9a-9d93-7304529c9d58"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J11,#PWR1",
     "variants": []
   },
   "sheets": [
     [
       "24817451-dfe0-4b9a-9d93-7304529c9d58",
       "gse_control_node"
+    ],
+    [
+      "e6f03911-29ab-479a-bf6e-91fcd28c212a",
+      "ADC1"
     ],
     [
       "bf847787-3d25-4ba5-b5be-a406bd17fe5d",
@@ -701,10 +705,6 @@
     [
       "ee31919e-6383-4dab-aec3-a18ec94a437b",
       "Power_Regulation"
-    ],
-    [
-      "ebc506e9-c70a-45ad-aff3-e2b184fc111d",
-      "ADC1"
     ],
     [
       "6a16d2ee-e303-4211-9829-9eeec2519e33",
