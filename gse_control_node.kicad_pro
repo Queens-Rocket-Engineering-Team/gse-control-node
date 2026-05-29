@@ -502,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "QRET-ESP32.kicad_pro",
+    "filename": "gse_control_node.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -677,8 +677,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "QRET-ESP32.kicad_sch",
-        "name": "QRET-ESP32",
+        "filename": "gse_control_node.kicad_sch",
+        "name": "gse_control_node",
         "uuid": "24817451-dfe0-4b9a-9d93-7304529c9d58"
       }
     ],
@@ -688,7 +688,7 @@
   "sheets": [
     [
       "24817451-dfe0-4b9a-9d93-7304529c9d58",
-      "QRET-ESP32"
+      "gse_control_node"
     ],
     [
       "bf847787-3d25-4ba5-b5be-a406bd17fe5d",
