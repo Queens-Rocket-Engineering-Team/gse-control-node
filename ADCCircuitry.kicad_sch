@@ -2589,7 +2589,7 @@
 			(uuid "c6377ff5-df33-45c0-8544-7f96ba3cb030")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C25")
 					(unit 1)
@@ -2681,7 +2681,7 @@
 			(uuid "65fa917d-d47c-4fac-8a7a-3d5436739835")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C26")
 					(unit 1)
@@ -2758,7 +2758,7 @@
 			(uuid "b7b1865d-d974-4bc5-9a66-a1d7fbaf2067")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0151")
 					(unit 1)
@@ -2939,7 +2939,7 @@
 			(uuid "608c247b-76fd-46e5-9188-dcfcb764dfb5")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C24")
 					(unit 1)
@@ -3160,7 +3160,7 @@
 			(uuid "2dd5407a-10bb-4802-812a-95c13ab5bba2")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "U7")
 					(unit 1)
@@ -3334,7 +3334,7 @@
 			(uuid "fb0fc959-fd3d-4e2c-822d-a7499b5949d8")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D6")
 					(unit 1)
@@ -3412,7 +3412,7 @@
 			(uuid "419be7be-91d0-4ea6-96cc-10538c423d49")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0158")
 					(unit 1)
@@ -3504,7 +3504,7 @@
 			(uuid "6da6172c-13f0-4e48-b963-35586a94c80f")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C28")
 					(unit 1)
@@ -3582,7 +3582,7 @@
 			(uuid "9735a5ad-2ede-4f95-b8d4-63239e368ef9")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0159")
 					(unit 1)
@@ -3659,7 +3659,7 @@
 			(uuid "27b0dcfd-4804-4921-8d0d-18f322269db9")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0161")
 					(unit 1)
@@ -3736,7 +3736,7 @@
 			(uuid "f09c87a4-4746-4b29-9688-d9d8083c42d9")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0153")
 					(unit 1)
@@ -3914,7 +3914,7 @@
 			(uuid "87099451-70bf-45e0-b573-8d3033a6a732")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R25")
 					(unit 1)
@@ -4070,7 +4070,7 @@
 			(uuid "0529d862-0072-491e-b122-65ed6603b69c")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R23")
 					(unit 1)
@@ -4226,7 +4226,7 @@
 			(uuid "71e47b58-fce4-45c5-a077-6ec35056a725")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R21")
 					(unit 1)
@@ -4303,7 +4303,7 @@
 			(uuid "49d154c6-65f1-4961-ae37-ce22566e6a5a")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0152")
 					(unit 1)
@@ -4380,7 +4380,7 @@
 			(uuid "3849a55d-964d-4e86-b458-c9fe199ff0b5")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0156")
 					(unit 1)
@@ -4553,7 +4553,7 @@
 			(uuid "5ac04267-58a3-4f80-ab8a-91b4bea4363b")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D9")
 					(unit 1)
@@ -4709,7 +4709,7 @@
 			(uuid "1dd5cee7-ac18-48d8-beb2-2e5c1fc21232")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R24")
 					(unit 1)
@@ -4786,7 +4786,7 @@
 			(uuid "53024a9d-eaea-46de-993f-76821a027f1e")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0150")
 					(unit 1)
@@ -4864,7 +4864,7 @@
 			(uuid "5f5cc0e0-ad24-4297-980a-26be1fa35844")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0160")
 					(unit 1)
@@ -5038,7 +5038,7 @@
 			(uuid "e0ead416-3384-4b8a-af4e-89bfb48525c4")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D8")
 					(unit 1)
@@ -5115,7 +5115,7 @@
 			(uuid "09d3a156-49fb-4d0d-86b2-614d5b8990d0")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0155")
 					(unit 1)
@@ -5193,7 +5193,7 @@
 			(uuid "f55c6750-a292-413f-9bea-2f6f0ece222b")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0157")
 					(unit 1)
@@ -5285,7 +5285,7 @@
 			(uuid "c698fe61-3e2d-49a2-bea7-67cc89043aea")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C29")
 					(unit 1)
@@ -5362,7 +5362,7 @@
 			(uuid "1bc3d4c1-7810-437f-bb68-0750ce5c1268")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0149")
 					(unit 1)
@@ -5535,7 +5535,7 @@
 			(uuid "2bf80337-cf1a-4651-813a-0650ac1180e5")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "D7")
 					(unit 1)
@@ -5691,7 +5691,7 @@
 			(uuid "5988ec71-802c-4e74-ba4d-fbe621a3a7b1")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "R22")
 					(unit 1)
@@ -5783,7 +5783,7 @@
 			(uuid "25fa0339-6092-4b1c-ac64-d9ccedce4b31")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "C27")
 					(unit 1)
@@ -5860,7 +5860,7 @@
 			(uuid "318cab99-567b-49db-9c54-963783da8f6d")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ebc506e9-c70a-45ad-aff3-e2b184fc111d"
 					(reference "#PWR0154")
 					(unit 1)

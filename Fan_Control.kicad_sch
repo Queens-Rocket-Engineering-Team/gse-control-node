@@ -490,7 +490,7 @@
 			(uuid "57ee9601-9d7a-4070-b63f-97ef849a0f23")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
 					(reference "J9")
 					(unit 1)
@@ -578,7 +578,7 @@
 			(uuid "ad100410-2ebd-441d-b6a9-b3758479734a")
 		)
 		(instances
-			(project "QRET-ESP32"
+			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
 					(reference "J10")
 					(unit 1)
