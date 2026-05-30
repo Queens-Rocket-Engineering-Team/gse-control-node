@@ -682,7 +682,7 @@
         "uuid": "24817451-dfe0-4b9a-9d93-7304529c9d58"
       }
     ],
-    "used_designators": "#PWR19,#PWR21,J1,J8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -692,7 +692,7 @@
     ],
     [
       "e6f03911-29ab-479a-bf6e-91fcd28c212a",
-      "ADC1"
+      "ADC 1"
     ],
     [
       "9cf28330-c8ca-424a-aab2-bcebd5b04616",
@@ -704,7 +704,7 @@
     ],
     [
       "ee31919e-6383-4dab-aec3-a18ec94a437b",
-      "Power_Regulation"
+      "Power Regulation"
     ],
     [
       "df47027d-81c2-4457-b2a4-c1e06ebb5a1a",
@@ -715,8 +715,20 @@
       "Fan Control 2"
     ],
     [
-      "6a16d2ee-e303-4211-9829-9eeec2519e33",
-      "Actuator_Control"
+      "fe2b7ba1-9565-4f89-9bf9-1d97bef2da17",
+      "Actuator Control 1"
+    ],
+    [
+      "93ade7e9-ef13-409d-a430-89296b231c7f",
+      "Actuator Control 2"
+    ],
+    [
+      "3ca34fcb-848a-442f-9018-9caf10b9e369",
+      "Actuator Control 3"
+    ],
+    [
+      "c4e569fb-235e-4777-b718-8e9c9d97ed61",
+      "Actuator Control 4"
     ]
   ],
   "text_variables": {},
