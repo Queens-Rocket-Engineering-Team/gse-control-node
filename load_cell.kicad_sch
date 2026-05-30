@@ -570,7 +570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "140ca2d0-c6c9-48eb-80f6-d8cea8372300")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR025"
 			(at 138.43 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -630,7 +630,7 @@
 		(instances
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/3fe78498-f3da-4a4e-905d-c6815bbc6a4f"
-					(reference "#PWR0115")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -648,7 +648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "814c2938-3ff2-4915-ae83-e264a26cef50")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR024"
 			(at 138.43 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -708,7 +708,7 @@
 		(instances
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/3fe78498-f3da-4a4e-905d-c6815bbc6a4f"
-					(reference "#PWR01")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -726,7 +726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a690ea-1c29-47c6-985b-03e303dfcb63")
-		(property "Reference" "J11"
+		(property "Reference" "J3"
 			(at 147.32 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -873,7 +873,7 @@
 		(instances
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/3fe78498-f3da-4a4e-905d-c6815bbc6a4f"
-					(reference "J11")
+					(reference "J3")
 					(unit 1)
 				)
 			)
