@@ -211,129 +211,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Small"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -964,18 +841,6 @@
 		(uuid "139da6a2-a3e5-4735-a198-21b1d8296e1a")
 	)
 	(junction
-		(at 107.95 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c4730d7-034a-44f7-9587-cc20ffa75904")
-	)
-	(junction
-		(at 116.84 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "828f94ef-7c19-4e6d-a1a3-9c1fdf198778")
-	)
-	(junction
 		(at 107.95 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -989,7 +854,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 30.48) (xy 116.84 33.02)
+			(xy 116.84 30.48) (xy 116.84 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +904,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 107.95 36.83)
+			(xy 107.95 30.48) (xy 107.95 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1056,16 +921,6 @@
 			(type default)
 		)
 		(uuid "28a01af5-9586-46ac-a7fa-c2ebc68b0346")
-	)
-	(wire
-		(pts
-			(xy 160.655 88.9) (xy 159.385 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c563b3e-1af5-428b-8f47-2072b65b9e33")
 	)
 	(wire
 		(pts
@@ -1169,26 +1024,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 33.02) (xy 116.84 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5197eb02-44d6-46aa-b60f-8b48360752fe")
-	)
-	(wire
-		(pts
-			(xy 107.95 30.48) (xy 107.95 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d781e2f-2e2c-4f35-ae2d-15692ad34862")
-	)
-	(wire
-		(pts
 			(xy 132.08 52.07) (xy 133.35 52.07)
 		)
 		(stroke
@@ -1269,6 +1104,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56f7e10-771b-4243-b2fd-cd9bc5bf79f6")
+	)
+	(wire
+		(pts
 			(xy 172.72 52.07) (xy 173.99 52.07)
 		)
 		(stroke
@@ -1309,6 +1154,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c99828-1de9-4a4c-9830-b89e9cfeaee6")
+	)
+	(wire
+		(pts
 			(xy 59.69 38.1) (xy 59.69 39.37)
 		)
 		(stroke
@@ -1336,16 +1191,6 @@
 			(type default)
 		)
 		(uuid "bf5baf14-16b6-4583-8813-6a39621ef3ac")
-	)
-	(wire
-		(pts
-			(xy 160.655 86.36) (xy 159.385 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c018596b-ba3f-4cb2-87a0-c2f1f1b46b8c")
 	)
 	(wire
 		(pts
@@ -1529,9 +1374,9 @@
 			)
 		)
 	)
-	(global_label "24V_GOOD"
+	(global_label "12V_PG"
 		(shape output)
-		(at 160.655 88.9 0)
+		(at 161.29 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1541,7 +1386,7 @@
 		)
 		(uuid "117082a5-1cf5-47c2-b648-95f71f10a0e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3164 88.9 0)
+			(at 171.2904 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +1638,7 @@
 			)
 		)
 	)
-	(global_label "5.3V_PG"
+	(global_label "5.17V_PG"
 		(shape input)
 		(at 132.08 45.72 180)
 		(fields_autoplaced yes)
@@ -1805,7 +1650,7 @@
 		)
 		(uuid "6cdb56d0-19e4-464a-a683-23bb0b96208d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.4748 45.72 0)
+			(at 120.2653 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2129,9 +1974,9 @@
 			)
 		)
 	)
-	(global_label "12V_GOOD"
+	(global_label "5.17V_PG"
 		(shape output)
-		(at 160.655 86.36 0)
+		(at 161.29 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2141,7 +1986,7 @@
 		)
 		(uuid "e75f286a-0f02-4da3-96cb-ccb3dd9ffa13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3164 86.36 0)
+			(at 173.1047 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,162 +3407,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 107.95 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce3d942f-b558-4789-bbbb-92c35c1838d6")
-		(property "Reference" "TP1"
-			(at 109.22 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SDA"
-			(at 109.22 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 113.03 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1764db6e-df02-4dc0-bfc7-11564c3b8f89")
-		)
-		(instances
-			(project "gse_control_node"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 151.13 171.45 0)
 		(unit 1)
@@ -3791,162 +3480,6 @@
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 116.84 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecb85df7-a17a-4dae-8ab4-f63c737918ea")
-		(property "Reference" "TP2"
-			(at 118.11 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCL"
-			(at 118.11 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 121.92 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 116.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b5ccbba-bf55-469f-9d60-7b665db60ba0")
-		)
-		(instances
-			(project "gse_control_node"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4505,16 +4038,6 @@
 				(justify right)
 			)
 		)
-		(pin "5.3V_POWER_GOOD" input
-			(at 133.35 45.72 180)
-			(uuid "8a68c18f-0a99-45e4-a5bc-4636ea5d3ea5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "12V_POWER_GOOD" input
 			(at 133.35 43.18 180)
 			(uuid "8bf0617b-d225-4c60-82c4-c771460aad8d")
@@ -4558,6 +4081,16 @@
 		(pin "FAN_2_TACH" input
 			(at 133.35 54.61 180)
 			(uuid "e0bb770f-892b-4078-8ea2-7fe4f910cc70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5.17V_POWER_GOOD" input
+			(at 133.35 45.72 180)
+			(uuid "ae3723fd-3375-492f-a59f-646e056ef9af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4243,7 @@
 	)
 	(sheet
 		(at 125.73 82.55)
-		(size 33.655 21.59)
+		(size 34.29 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4746,9 +4279,9 @@
 				(justify left top)
 			)
 		)
-		(pin "12_POWER_GOOD" output
-			(at 159.385 86.36 0)
-			(uuid "7c70c42d-e0c3-43be-be39-28f01317fa7e")
+		(pin "5.17_POWER_GOOD" output
+			(at 160.02 91.44 0)
+			(uuid "e129bc98-87c2-47a2-a7d1-94f78527c724")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,9 +4289,9 @@
 				(justify right)
 			)
 		)
-		(pin "24_POWER_GOOD" output
-			(at 159.385 88.9 0)
-			(uuid "309cbeb1-141f-4fc5-b5cd-58576fe6460d")
+		(pin "12_POWER_GOOD" output
+			(at 160.02 88.9 0)
+			(uuid "0f5e206f-bd9b-44de-9183-ed054dd5c23b")
 			(effects
 				(font
 					(size 1.27 1.27)
