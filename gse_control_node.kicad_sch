@@ -661,6 +661,30 @@
 		)
 	)
 	(rectangle
+		(start 91.44 69.85)
+		(end 195.58 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "396405eb-5914-4561-ac1d-51e8c94325f8")
+	)
+	(rectangle
+		(start 15.24 109.22)
+		(end 88.9 171.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "433b9251-3c9b-4ead-8174-83e7b291126b")
+	)
+	(rectangle
 		(start 15.24 15.24)
 		(end 88.9 43.18)
 		(stroke
@@ -698,7 +722,7 @@
 	)
 	(rectangle
 		(start 91.44 15.24)
-		(end 191.77 67.31)
+		(end 195.58 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -787,6 +811,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a4aa54-8ad7-483a-a70a-329564311748")
+	)
+	(wire
+		(pts
 			(xy 63.5 38.1) (xy 63.5 39.37)
 		)
 		(stroke
@@ -817,6 +851,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.655 88.9) (xy 159.385 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c563b3e-1af5-428b-8f47-2072b65b9e33")
+	)
+	(wire
+		(pts
+			(xy 41.91 146.05) (xy 43.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da1d989-ec0f-42fd-bca3-c7aa26bc5965")
+	)
+	(wire
+		(pts
 			(xy 172.72 38.1) (xy 173.99 38.1)
 		)
 		(stroke
@@ -824,16 +878,6 @@
 			(type default)
 		)
 		(uuid "2fa70563-e259-4008-a04a-3acd02219033")
-	)
-	(wire
-		(pts
-			(xy 172.72 53.34) (xy 173.99 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34019395-72dd-4837-8e62-745790bba62d")
 	)
 	(wire
 		(pts
@@ -854,6 +898,16 @@
 			(type default)
 		)
 		(uuid "44f668c4-050e-472b-a05c-be9a3ee9be6f")
+	)
+	(wire
+		(pts
+			(xy 41.91 120.65) (xy 43.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462090f9-4a1b-4842-9431-2689fef7bc45")
 	)
 	(wire
 		(pts
@@ -917,6 +971,36 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 52.07) (xy 133.35 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60331917-0dc6-40e0-9fde-fe47cabf0757")
+	)
+	(wire
+		(pts
+			(xy 132.08 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632f743e-92f5-4453-bea5-6e4d1cbc883f")
+	)
+	(wire
+		(pts
+			(xy 41.91 158.75) (xy 43.18 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782b497b-fc5b-4577-9f16-34d21e72b9b0")
+	)
+	(wire
+		(pts
 			(xy 105.41 36.83) (xy 107.95 36.83)
 		)
 		(stroke
@@ -927,7 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 46.99) (xy 173.99 46.99)
+			(xy 172.72 54.61) (xy 173.99 54.61)
 		)
 		(stroke
 			(width 0)
@@ -944,16 +1028,6 @@
 			(type default)
 		)
 		(uuid "8dd565f2-4a33-49c0-9a72-647ff199415a")
-	)
-	(wire
-		(pts
-			(xy 172.72 50.8) (xy 173.99 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fe18a0b-4423-4836-8ca3-a77ffe2d6e32")
 	)
 	(wire
 		(pts
@@ -977,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 44.45) (xy 173.99 44.45)
+			(xy 172.72 52.07) (xy 173.99 52.07)
 		)
 		(stroke
 			(width 0)
@@ -997,13 +1071,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 45.72) (xy 133.35 45.72)
+			(xy 132.08 43.18) (xy 133.35 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9a6b90f-e207-46a5-a3a0-ccf9ed5de19c")
+	)
+	(wire
+		(pts
+			(xy 41.91 133.35) (xy 43.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0333ae-d1d7-40c0-9a56-47128f16bbc3")
 	)
 	(wire
 		(pts
@@ -1034,6 +1118,16 @@
 			(type default)
 		)
 		(uuid "bf5baf14-16b6-4583-8813-6a39621ef3ac")
+	)
+	(wire
+		(pts
+			(xy 160.655 86.36) (xy 159.385 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c018596b-ba3f-4cb2-87a0-c2f1f1b46b8c")
 	)
 	(wire
 		(pts
@@ -1077,7 +1171,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 133.35 48.26)
+			(xy 53.34 58.42) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0364a50-c2e6-4f06-8880-a191ce9e99e7")
+	)
+	(wire
+		(pts
+			(xy 132.08 45.72) (xy 133.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1160,18 +1264,18 @@
 		)
 	)
 	(global_label "LOAD_CELL-"
-		(shape input)
-		(at 45.72 58.42 180)
+		(shape output)
+		(at 53.34 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "08352002-13c6-4861-ad10-f40a66c5b7c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0024 58.42 0)
+			(at 68.0576 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1179,7 +1283,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -1208,8 +1312,8 @@
 		)
 	)
 	(global_label "24V_GOOD"
-		(shape input)
-		(at 163.83 111.76 0)
+		(shape output)
+		(at 160.655 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1219,7 +1323,7 @@
 		)
 		(uuid "117082a5-1cf5-47c2-b648-95f71f10a0e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.4914 111.76 0)
+			(at 173.3164 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1228,6 +1332,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ACTUATOR_2_CTL"
+		(shape input)
+		(at 41.91 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b6d7025-da56-45d9-9e87-8a07aa598a61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.201 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1255,7 +1383,7 @@
 			)
 		)
 	)
-	(global_label "VALVE_2_CTL"
+	(global_label "ACTUATOR_2_CTL"
 		(shape output)
 		(at 173.99 35.56 0)
 		(fields_autoplaced yes)
@@ -1267,7 +1395,7 @@
 		)
 		(uuid "30db8b69-a737-4707-9717-ba69e3f25f6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8285 35.56 0)
+			(at 192.699 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1329,7 +1457,7 @@
 	)
 	(global_label "12V_PG"
 		(shape input)
-		(at 132.08 45.72 180)
+		(at 132.08 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1339,7 +1467,7 @@
 		)
 		(uuid "3fb611bd-67eb-494b-88d7-1ce046d66860")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0796 45.72 0)
+			(at 122.0796 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1372,6 +1500,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ACTUATOR_3_CTL"
+		(shape input)
+		(at 41.91 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bdced8b-a1f6-4976-900a-685c08255f0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.201 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1425,7 +1577,7 @@
 	)
 	(global_label "5.3V_PG"
 		(shape input)
-		(at 132.08 48.26 180)
+		(at 132.08 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1435,7 +1587,7 @@
 		)
 		(uuid "6cdb56d0-19e4-464a-a683-23bb0b96208d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.4748 48.26 0)
+			(at 121.4748 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,18 +1600,18 @@
 		)
 	)
 	(global_label "LOAD_CELL+"
-		(shape input)
-		(at 45.72 54.61 180)
+		(shape output)
+		(at 53.34 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7371f69b-4190-4b53-be1f-8170d54072f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0024 54.61 0)
+			(at 68.0576 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1467,7 +1619,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -1497,7 +1649,7 @@
 	)
 	(global_label "FAN_1_PWM"
 		(shape output)
-		(at 173.99 44.45 0)
+		(at 173.99 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1507,7 +1659,7 @@
 		)
 		(uuid "7bbf62c7-f7a9-4471-b291-4681e83f1777")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.8004 44.45 0)
+			(at 187.8004 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,30 +1668,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "A2_Control"
-		(shape input)
-		(at 104.14 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8132f384-8c20-4987-a1d8-9ab3ca15b285")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.995 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -1567,7 +1695,7 @@
 			)
 		)
 	)
-	(global_label "VALVE_4_CTL"
+	(global_label "ACTUATOR_4_CTL"
 		(shape output)
 		(at 173.99 40.64 0)
 		(fields_autoplaced yes)
@@ -1579,7 +1707,7 @@
 		)
 		(uuid "92bea8ab-f7d6-4bed-a6c1-7b48b8ba3b3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8285 40.64 0)
+			(at 192.699 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,31 +1721,7 @@
 	)
 	(global_label "FAN_2_TACH"
 		(shape input)
-		(at 173.99 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93fc49d8-424a-40cb-b7ca-d05725484015")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2843 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Nitrous_Control"
-		(shape input)
-		(at 104.14 170.18 180)
+		(at 132.08 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1625,9 +1729,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9a9de65c-936a-400b-91b6-151994f018cd")
+		(uuid "93fc49d8-424a-40cb-b7ca-d05725484015")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.5198 170.18 0)
+			(at 117.7857 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1745,7 @@
 	)
 	(global_label "FAN_2_PWM"
 		(shape output)
-		(at 173.99 46.99 0)
+		(at 173.99 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1651,7 +1755,7 @@
 		)
 		(uuid "9cae6653-7bce-47fa-a0ff-1e832a24d034")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.8004 46.99 0)
+			(at 187.8004 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1663,7 +1767,7 @@
 			)
 		)
 	)
-	(global_label "VALVE_3_CTL"
+	(global_label "ACTUATOR_3_CTL"
 		(shape output)
 		(at 173.99 38.1 0)
 		(fields_autoplaced yes)
@@ -1675,7 +1779,7 @@
 		)
 		(uuid "ae84b224-efeb-479e-a86a-3bd10423390c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8285 38.1 0)
+			(at 192.699 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,7 +1815,7 @@
 			)
 		)
 	)
-	(global_label "VALVE_1_CTL"
+	(global_label "ACTUATOR_1_CTL"
 		(shape output)
 		(at 173.99 33.02 0)
 		(fields_autoplaced yes)
@@ -1723,7 +1827,7 @@
 		)
 		(uuid "bd4eec34-ca21-4f35-a64b-86af758dbd77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8285 33.02 0)
+			(at 192.699 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1735,19 +1839,19 @@
 			)
 		)
 	)
-	(global_label "FAN_1_TACH"
+	(global_label "ACTUATOR_1_CTL"
 		(shape input)
-		(at 173.99 50.8 0)
+		(at 41.91 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "d204abc8-cd1c-4b5b-8ae7-91f1d2bb9517")
+		(uuid "d0addbe9-2d8e-4b0d-871b-8e9bee6f20c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2843 50.8 0)
+			(at 23.201 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1755,7 +1859,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FAN_1_TACH"
+		(shape input)
+		(at 132.08 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d204abc8-cd1c-4b5b-8ae7-91f1d2bb9517")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.7857 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1784,8 +1912,8 @@
 		)
 	)
 	(global_label "12V_GOOD"
-		(shape input)
-		(at 163.83 109.22 0)
+		(shape output)
+		(at 160.655 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1795,7 +1923,7 @@
 		)
 		(uuid "e75f286a-0f02-4da3-96cb-ccb3dd9ffa13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.4914 109.22 0)
+			(at 173.3164 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,9 +1935,9 @@
 			)
 		)
 	)
-	(global_label "A1_Control"
+	(global_label "ACTUATOR_4_CTL"
 		(shape input)
-		(at 104.14 162.56 180)
+		(at 41.91 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1817,9 +1945,9 @@
 			)
 			(justify right)
 		)
-		(uuid "fce1618b-7554-4777-80cd-b7ec29d5bb93")
+		(uuid "eba0f028-be0a-447a-9ccb-f2b8ca75fecc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.995 162.56 0)
+			(at 23.201 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,7 +1961,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 49.53 182.88 0)
+		(at 151.13 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1844,7 +1972,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d4a8786-c3ff-4026-8df0-d9ee37c94393")
 		(property "Reference" "H4"
-			(at 52.07 180.3399 0)
+			(at 153.67 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1855,7 +1983,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 52.07 182.8799 0)
+			(at 153.67 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1866,7 +1994,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 49.53 182.88 0)
+			(at 151.13 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1877,7 +2005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 182.88 0)
+			(at 151.13 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1888,7 +2016,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 49.53 182.88 0)
+			(at 151.13 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1989,7 +2117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 171.45 0)
+		(at 124.46 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2000,7 +2128,7 @@
 		(fields_autoplaced yes)
 		(uuid "16b83e89-caf0-4449-9bfa-7ec6c4648099")
 		(property "Reference" "#PWR03"
-			(at 22.86 177.8 0)
+			(at 124.46 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2011,7 +2139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 176.53 0)
+			(at 124.46 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2021,7 +2149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 171.45 0)
+			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 171.45 0)
+			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +2171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 171.45 0)
+			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2067,7 +2195,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 22.86 168.91 0)
+		(at 124.46 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2078,7 +2206,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ffc15fb-4091-4633-b3e1-b03ece2d13ef")
 		(property "Reference" "H1"
-			(at 25.4 166.3699 0)
+			(at 127 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2089,7 +2217,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 25.4 168.9099 0)
+			(at 127 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2100,7 +2228,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 22.86 168.91 0)
+			(at 124.46 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2111,7 +2239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 168.91 0)
+			(at 124.46 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2250,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 22.86 168.91 0)
+			(at 124.46 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,7 +2351,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 185.42 0)
+		(at 151.13 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2234,7 +2362,7 @@
 		(fields_autoplaced yes)
 		(uuid "3857e98e-871b-4efc-b210-fcfb680bdb5e")
 		(property "Reference" "#PWR06"
-			(at 49.53 191.77 0)
+			(at 151.13 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2245,7 +2373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 190.5 0)
+			(at 151.13 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2255,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 185.42 0)
+			(at 151.13 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2266,7 +2394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 185.42 0)
+			(at 151.13 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2277,7 +2405,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 185.42 0)
+			(at 151.13 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,7 +3109,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 185.42 0)
+		(at 124.46 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2992,7 +3120,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fa5395e-4e21-4ffa-b3cb-7e8b11e479e6")
 		(property "Reference" "#PWR05"
-			(at 22.86 191.77 0)
+			(at 124.46 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3003,7 +3131,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 190.5 0)
+			(at 124.46 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3013,7 +3141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 185.42 0)
+			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3024,7 +3152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 185.42 0)
+			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 185.42 0)
+			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +3187,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 171.45 0)
+		(at 151.13 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3070,7 +3198,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7ab3f38-3063-42aa-bf48-878e60c2e624")
 		(property "Reference" "#PWR04"
-			(at 49.53 177.8 0)
+			(at 151.13 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3081,7 +3209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 176.53 0)
+			(at 151.13 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3091,7 +3219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 171.45 0)
+			(at 151.13 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3102,7 +3230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 171.45 0)
+			(at 151.13 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3113,7 +3241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 171.45 0)
+			(at 151.13 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,7 +3421,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 49.53 168.91 0)
+		(at 151.13 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3304,7 +3432,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec9a5cb3-f260-457b-a397-784e713b36a8")
 		(property "Reference" "H2"
-			(at 52.07 166.3699 0)
+			(at 153.67 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3315,7 +3443,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 52.07 168.9099 0)
+			(at 153.67 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3326,7 +3454,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 49.53 168.91 0)
+			(at 151.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,7 +3465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 168.91 0)
+			(at 151.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,7 +3476,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 49.53 168.91 0)
+			(at 151.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3656,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 22.86 182.88 0)
+		(at 124.46 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3539,7 +3667,7 @@
 		(fields_autoplaced yes)
 		(uuid "f90cb44a-a4cc-411e-920d-ebcbd3cd8a2f")
 		(property "Reference" "H3"
-			(at 25.4 180.3399 0)
+			(at 127 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3550,7 +3678,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 25.4 182.8799 0)
+			(at 127 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3561,7 +3689,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 22.86 182.88 0)
+			(at 124.46 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 182.88 0)
+			(at 124.46 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3711,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 22.86 182.88 0)
+			(at 124.46 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3672,7 +3800,63 @@
 		)
 	)
 	(sheet
-		(at 45.72 52.07)
+		(at 43.18 142.24)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3ca34fcb-848a-442f-9018-9caf10b9e369")
+		(property "Sheetname" "Actuator Control 3"
+			(at 43.18 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "actuator_control.kicad_sch"
+			(at 43.18 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACTUATOR_CTL" input
+			(at 43.18 146.05 180)
+			(uuid "80bbd9b6-cf2a-43a2-9678-4c9cce1d4426")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 52.07)
 		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3688,7 +3872,7 @@
 		)
 		(uuid "3fe78498-f3da-4a4e-905d-c6815bbc6a4f")
 		(property "Sheetname" "Load Cell 1"
-			(at 45.72 51.3584 0)
+			(at 39.37 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3699,7 +3883,7 @@
 			)
 		)
 		(property "Sheetfile" "load_cell.kicad_sch"
-			(at 45.72 61.5446 0)
+			(at 39.37 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3710,23 +3894,23 @@
 			)
 		)
 		(pin "LC+" output
-			(at 45.72 54.61 180)
+			(at 52.07 54.61 0)
 			(uuid "2adc9b26-05e1-4471-906e-0407feffa287")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "LC-" output
-			(at 45.72 58.42 180)
+			(at 52.07 58.42 0)
 			(uuid "e5101b23-7537-44ec-835a-57547c456f84")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -3738,8 +3922,8 @@
 		)
 	)
 	(sheet
-		(at 104.14 158.75)
-		(size 31.115 34.29)
+		(at 43.18 129.54)
+		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3752,9 +3936,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "6a16d2ee-e303-4211-9829-9eeec2519e33")
-		(property "Sheetname" "Actuator_Control"
-			(at 104.14 158.0384 0)
+		(uuid "93ade7e9-ef13-409d-a430-89296b231c7f")
+		(property "Sheetname" "Actuator Control 2"
+			(at 43.18 128.8284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3764,8 +3948,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Actuator_Control.kicad_sch"
-			(at 104.14 193.6246 0)
+		(property "Sheetfile" "actuator_control.kicad_sch"
+			(at 43.18 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3775,29 +3959,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Actuator_1_Control" input
-			(at 104.14 162.56 180)
-			(uuid "4bc6b9b6-03fe-44d4-b219-3ba22dea3340")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Actuator_2_Control" input
-			(at 104.14 166.37 180)
-			(uuid "27e307ac-35f5-4f2a-a52c-2d288bc092f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Nitrous_Line_Control" input
-			(at 104.14 170.18 180)
-			(uuid "408cdd91-1591-4f64-8d1b-113eab0132db")
+		(pin "ACTUATOR_CTL" input
+			(at 43.18 133.35 180)
+			(uuid "3d4ea1e5-9c39-41fd-9bba-1e1cefc133a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,8 +4044,64 @@
 		)
 	)
 	(sheet
+		(at 43.18 154.94)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c4e569fb-235e-4777-b718-8e9c9d97ed61")
+		(property "Sheetname" "Actuator Control 4"
+			(at 43.18 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "actuator_control.kicad_sch"
+			(at 43.18 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACTUATOR_CTL" input
+			(at 43.18 158.75 180)
+			(uuid "d9617197-0cbd-4b20-9a21-84cf21217e08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 133.35 29.21)
-		(size 39.37 27.94)
+		(size 39.37 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3907,7 +4127,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32s3_breakout.kicad_sch"
-			(at 133.35 57.7346 0)
+			(at 133.35 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3988,7 +4208,7 @@
 			)
 		)
 		(pin "5.3V_POWER_GOOD" input
-			(at 133.35 48.26 180)
+			(at 133.35 45.72 180)
 			(uuid "8a68c18f-0a99-45e4-a5bc-4636ea5d3ea5")
 			(effects
 				(font
@@ -3998,7 +4218,7 @@
 			)
 		)
 		(pin "12V_POWER_GOOD" input
-			(at 133.35 45.72 180)
+			(at 133.35 43.18 180)
 			(uuid "8bf0617b-d225-4c60-82c4-c771460aad8d")
 			(effects
 				(font
@@ -4008,7 +4228,7 @@
 			)
 		)
 		(pin "FAN_1_PWM" output
-			(at 172.72 44.45 0)
+			(at 172.72 52.07 0)
 			(uuid "fca61c26-f228-43a7-b8f1-7768d7103bf2")
 			(effects
 				(font
@@ -4018,17 +4238,17 @@
 			)
 		)
 		(pin "FAN_1_TACH" input
-			(at 172.72 50.8 0)
+			(at 133.35 52.07 180)
 			(uuid "d8d0e8dc-4eb1-4be1-b70a-2ee2cd4d8c5d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "FAN_2_PWM" output
-			(at 172.72 46.99 0)
+			(at 172.72 54.61 0)
 			(uuid "19fd1fd7-8a0b-48f3-9157-032b2f88b1ce")
 			(effects
 				(font
@@ -4038,13 +4258,13 @@
 			)
 		)
 		(pin "FAN_2_TACH" input
-			(at 172.72 53.34 0)
+			(at 133.35 54.61 180)
 			(uuid "e0bb770f-892b-4078-8ea2-7fe4f910cc70")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -4070,7 +4290,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e6f03911-29ab-479a-bf6e-91fcd28c212a")
-		(property "Sheetname" "ADC1"
+		(property "Sheetname" "ADC 1"
 			(at 49.276 22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,7 +4301,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADCCircuitry.kicad_sch"
+		(property "Sheetfile" "adc_filtering.kicad_sch"
 			(at 49.276 23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4411,7 @@
 		)
 	)
 	(sheet
-		(at 130.175 102.87)
+		(at 125.73 82.55)
 		(size 33.655 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4206,8 +4426,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ee31919e-6383-4dab-aec3-a18ec94a437b")
-		(property "Sheetname" "Power_Regulation"
-			(at 130.175 102.1584 0)
+		(property "Sheetname" "Power Regulation"
+			(at 125.73 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4217,8 +4437,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power_Regulation.kicad_sch"
-			(at 130.175 125.0446 0)
+		(property "Sheetfile" "power_regulation.kicad_sch"
+			(at 125.73 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4229,7 +4449,7 @@
 			)
 		)
 		(pin "12_POWER_GOOD" output
-			(at 163.83 109.22 0)
+			(at 159.385 86.36 0)
 			(uuid "7c70c42d-e0c3-43be-be39-28f01317fa7e")
 			(effects
 				(font
@@ -4239,7 +4459,7 @@
 			)
 		)
 		(pin "24_POWER_GOOD" output
-			(at 163.83 111.76 0)
+			(at 159.385 88.9 0)
 			(uuid "309cbeb1-141f-4fc5-b5cd-58576fe6460d")
 			(effects
 				(font
@@ -4252,6 +4472,62 @@
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 116.84)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fe2b7ba1-9565-4f89-9bf9-1d97bef2da17")
+		(property "Sheetname" "Actuator Control 1"
+			(at 43.18 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "actuator_control.kicad_sch"
+			(at 43.18 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACTUATOR_CTL" input
+			(at 43.18 120.65 180)
+			(uuid "e6665888-ed3d-4354-a48c-6108c78b92f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(page "8")
 				)
 			)
 		)
