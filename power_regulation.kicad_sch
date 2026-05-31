@@ -5259,6 +5259,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 160.02) (xy 105.41 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed97a2fa-d66e-4347-9b8a-6503c71adc1a")
+	)
+	(wire
+		(pts
 			(xy 200.66 55.88) (xy 201.93 55.88)
 		)
 		(stroke
@@ -5892,7 +5902,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" ""
 			(at 78.74 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6321,7 +6331,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" ""
 			(at 72.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7865,7 +7875,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C861611"
+		(property "LCSC" ""
 			(at 78.74 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9491,7 +9501,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C326729"
+		(property "LCSC" ""
 			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10605,6 +10615,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 105.41 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9c00ffc3-427f-407e-987a-0ee9bd4660e0")
+		(property "Reference" "TP7"
+			(at 103.378 155.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_+12V"
+			(at 101.6 157.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 110.49 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "N/A"
+			(at 105.41 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba12380c-25e2-427d-967c-bb031ed73d36")
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 185.42 55.88 180)
 		(unit 1)
@@ -11162,7 +11261,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C137992"
+		(property "LCSC" ""
 			(at 256.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11255,7 +11354,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C137995"
+		(property "LCSC" ""
 			(at 104.14 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11608,7 +11707,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" ""
 			(at 69.85 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11778,7 +11877,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C99198"
+		(property "LCSC" ""
 			(at 55.88 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12024,7 +12123,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" ""
 			(at 78.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12576,7 +12675,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122538"
+		(property "LCSC" ""
 			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13202,7 +13301,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138040"
+		(property "LCSC" ""
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
