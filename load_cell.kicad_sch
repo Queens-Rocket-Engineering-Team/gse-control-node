@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "234741e3-6e57-4b8d-936a-93e4fb7f0070")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
@@ -478,7 +478,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 101.6) (xy 139.7 101.6)
+			(xy 99.06 66.04) (xy 100.33 66.04)
 		)
 		(stroke
 			(width 0)
@@ -488,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 138.43 96.52)
+			(xy 99.06 59.69) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -498,7 +498,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 105.41) (xy 138.43 104.14)
+			(xy 99.06 69.85) (xy 99.06 68.58)
 		)
 		(stroke
 			(width 0)
@@ -508,7 +508,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 99.06) (xy 139.7 99.06)
+			(xy 99.06 63.5) (xy 100.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -518,7 +518,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 139.7 96.52)
+			(xy 99.06 60.96) (xy 100.33 60.96)
 		)
 		(stroke
 			(width 0)
@@ -528,7 +528,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 104.14) (xy 139.7 104.14)
+			(xy 99.06 68.58) (xy 100.33 68.58)
 		)
 		(stroke
 			(width 0)
@@ -538,7 +538,7 @@
 	)
 	(hierarchical_label "LC-"
 		(shape output)
-		(at 138.43 101.6 180)
+		(at 99.06 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -549,7 +549,7 @@
 	)
 	(hierarchical_label "LC+"
 		(shape output)
-		(at 138.43 99.06 180)
+		(at 99.06 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -560,7 +560,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 105.41 0)
+		(at 99.06 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -571,7 +571,7 @@
 		(fields_autoplaced yes)
 		(uuid "140ca2d0-c6c9-48eb-80f6-d8cea8372300")
 		(property "Reference" "#PWR025"
-			(at 138.43 111.76 0)
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -582,7 +582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 110.49 0)
+			(at 99.06 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -592,7 +592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 105.41 0)
+			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -603,7 +603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 105.41 0)
+			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -614,7 +614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 105.41 0)
+			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -638,7 +638,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 95.25 0)
+		(at 99.06 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -649,7 +649,7 @@
 		(fields_autoplaced yes)
 		(uuid "814c2938-3ff2-4915-ae83-e264a26cef50")
 		(property "Reference" "#PWR024"
-			(at 138.43 99.06 0)
+			(at 99.06 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -660,7 +660,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 138.43 90.17 0)
+			(at 99.06 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -670,7 +670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 95.25 0)
+			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -681,7 +681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 95.25 0)
+			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -692,7 +692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 95.25 0)
+			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -716,18 +716,18 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 144.78 99.06 0)
+		(at 105.41 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a690ea-1c29-47c6-985b-03e303dfcb63")
 		(property "Reference" "J3"
-			(at 147.32 99.0599 0)
+			(at 107.95 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -737,8 +737,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4-Pin Load Cell"
-			(at 147.32 101.5999 0)
+		(property "Value" "Conn_01x04"
+			(at 107.95 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -749,7 +749,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
-			(at 144.78 99.06 0)
+			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -760,7 +760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 99.06 0)
+			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -771,7 +771,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 99.06 0)
+			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -781,74 +781,8 @@
 				)
 			)
 		)
-		(property "ADC Number" ""
-			(at 144.78 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 144.78 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 144.78 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 144.78 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 144.78 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 144.78 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 144.78 99.06 0)
+		(property "LCSC" "N/A"
+			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
