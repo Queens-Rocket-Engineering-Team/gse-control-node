@@ -5427,7 +5427,7 @@
 		)
 		(uuid "6d58cf3f-3ddc-4121-aa2a-827b7def0233")
 	)
-	(label "SW_5.3"
+	(label "SW_5.17"
 		(at 68.58 88.9 0)
 		(effects
 			(font
@@ -5467,7 +5467,7 @@
 		)
 		(uuid "d1070afc-f88f-46fd-8973-03403e9c2679")
 	)
-	(label "VCC_5.3"
+	(label "VCC_5.17"
 		(at 45.72 106.68 180)
 		(effects
 			(font
@@ -5477,7 +5477,7 @@
 		)
 		(uuid "d945581f-7d54-4c7d-96d9-3ea30e829421")
 	)
-	(label "SW_5.3"
+	(label "SW_5.17"
 		(at 67.31 99.06 0)
 		(effects
 			(font
