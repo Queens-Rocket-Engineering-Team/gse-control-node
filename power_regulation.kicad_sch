@@ -9533,9 +9533,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6effd956-9223-42f7-bcb2-39c73ac78a65")
 		(property "Reference" "U5"
