@@ -739,24 +739,24 @@
       "gse_control_node"
     ],
     [
-      "e6f03911-29ab-479a-bf6e-91fcd28c212a",
-      "ADC 1"
-    ],
-    [
-      "9cf28330-c8ca-424a-aab2-bcebd5b04616",
-      "Fan Control 1"
-    ],
-    [
-      "3fe78498-f3da-4a4e-905d-c6815bbc6a4f",
-      "Load Cell 1"
+      "df47027d-81c2-4457-b2a4-c1e06ebb5a1a",
+      "ESP32 Breakout"
     ],
     [
       "ee31919e-6383-4dab-aec3-a18ec94a437b",
       "Power Regulation"
     ],
     [
-      "df47027d-81c2-4457-b2a4-c1e06ebb5a1a",
-      "ESP32 Breakout"
+      "e6f03911-29ab-479a-bf6e-91fcd28c212a",
+      "ADC 1"
+    ],
+    [
+      "3fe78498-f3da-4a4e-905d-c6815bbc6a4f",
+      "Load Cell 1"
+    ],
+    [
+      "9cf28330-c8ca-424a-aab2-bcebd5b04616",
+      "Fan Control 1"
     ],
     [
       "3178ca55-81b8-4bea-837c-8a6c63e16663",
