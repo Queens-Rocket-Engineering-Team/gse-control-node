@@ -1,5 +1,6 @@
 # Local backups
 .history/
+*-backups/
 
 # Local project settings
 *.kicad_prl
