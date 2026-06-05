@@ -7728,7 +7728,7 @@
 				(pins "1" "2" "3" "4" "5")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 15.435 2.01)
@@ -31671,8 +31671,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "5V   +   -  GND"
-		(at 113.5 80.3 0)
+	(gr_text "5V   +    -  GND  SH"
+		(at 116.925 80.275 0)
 		(layer "B.SilkS")
 		(uuid "870472b8-c25f-4bc8-aa32-2c1ccf24012b")
 		(effects
@@ -36193,30 +36193,6 @@
 		(uuid "eef7bbd3-adad-406d-a83e-bc0f45190614")
 	)
 	(segment
-		(start 118.825 75.5)
-		(end 115.075 75.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LOAD_CELL+")
-		(uuid "1e1c66e1-be78-4238-83c0-25b43f3abb07")
-	)
-	(segment
-		(start 115.075 75.5)
-		(end 113.1 77.475)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LOAD_CELL+")
-		(uuid "5655146e-b0de-493c-97e5-4b2872cbb0e5")
-	)
-	(segment
-		(start 121.775 72.55)
-		(end 118.825 75.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "LOAD_CELL+")
-		(uuid "cfeff012-4d44-4f41-ab63-ca2bf7c9ca11")
-	)
-	(segment
 		(start 115.91625 65.975)
 		(end 120.68875 65.975)
 		(width 0.2)
@@ -36327,6 +36303,30 @@
 		(layer "F.Cu")
 		(net "Net-(D10-A)")
 		(uuid "bfd17259-2f82-407c-8142-c8139219b1b2")
+	)
+	(segment
+		(start 118.825 75.5)
+		(end 115.075 75.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LOAD_CELL+")
+		(uuid "1e1c66e1-be78-4238-83c0-25b43f3abb07")
+	)
+	(segment
+		(start 115.075 75.5)
+		(end 113.1 77.475)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LOAD_CELL+")
+		(uuid "5655146e-b0de-493c-97e5-4b2872cbb0e5")
+	)
+	(segment
+		(start 121.775 72.55)
+		(end 118.825 75.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "LOAD_CELL+")
+		(uuid "cfeff012-4d44-4f41-ab63-ca2bf7c9ca11")
 	)
 	(segment
 		(start 74.285 73.81)
