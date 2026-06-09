@@ -3378,6 +3378,148 @@
 		)
 	)
 	(sheet
+		(at 207.01 26.67)
+		(size 57.15 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "15679307-79a6-41da-a7b4-01439538782b")
+		(property "Sheetname" "Ignitor"
+			(at 207.01 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ignitor_control.kicad_sch"
+			(at 207.01 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 78.74)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "28c3d518-e410-4f76-b365-6a95738a7ad8")
+		(property "Sheetname" "Heater 1"
+			(at 219.71 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "heater_control.kicad_sch"
+			(at 219.71 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HEATER_CTL" input
+			(at 219.71 85.09 180)
+			(uuid "fb91aeac-8d02-4fab-a5d5-8b1ec1adbcc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TH0" output
+			(at 245.11 81.28 0)
+			(uuid "ee62e0a4-7bc1-4ba4-81e8-30d5b6310eea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TH1" output
+			(at 245.11 83.82 0)
+			(uuid "8fc920b2-2410-41c6-9e74-28900da74fd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TH2" output
+			(at 245.11 86.36 0)
+			(uuid "1f3e2f00-6560-46a6-981f-4c4556c706f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TH3" output
+			(at 245.11 88.9 0)
+			(uuid "a478706e-2892-4665-a5b4-8013dd38fd50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 39.37 92.71)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
@@ -3739,6 +3881,102 @@
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 97.79)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dc557d0f-2257-48d5-9078-60327222e91e")
+		(property "Sheetname" "Heater 2"
+			(at 219.71 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "heater_control.kicad_sch"
+			(at 219.71 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HEATER_CTL" input
+			(at 219.71 104.14 180)
+			(uuid "77f79256-67b9-488a-96b1-d86840138f7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TH0" output
+			(at 245.11 100.33 0)
+			(uuid "c6f7197a-291d-4987-8bf1-9c3e2c40f107")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TH1" output
+			(at 245.11 102.87 0)
+			(uuid "ac8148b0-8de0-403b-ac0e-62f6fc5b7f6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TH2" output
+			(at 245.11 105.41 0)
+			(uuid "61b4b3ca-de7d-4617-977b-8e417cf676ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TH3" output
+			(at 245.11 107.95 0)
+			(uuid "ce2df07f-2af2-4f2f-812d-0d1a14c42af1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
+					(page "13")
 				)
 			)
 		)
