@@ -61,12 +61,12 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 10.0,
+          "min_island_area": 0.0013161349,
           "min_thickness": 0.25,
-          "pad_connection": 3,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 2.0
         }
       },
       "diff_pair_dimensions": [
@@ -99,7 +99,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -116,16 +116,16 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -146,11 +146,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.4,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -158,10 +158,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.75,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.25,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -242,10 +242,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -466,7 +462,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -506,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "gse_control_node.kicad_pro",
+    "filename": "heater_pad_driver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -529,21 +524,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.1577,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB_DIFF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1577,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -551,23 +531,14 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "USB_DIFF",
-        "pattern": "*/USB_*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -603,7 +574,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -612,16 +583,22 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -633,19 +610,37 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Category",
-          "name": "Category",
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
           "show": false
         },
         {
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -658,12 +653,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
         }
       ],
       "filter_string": "",
@@ -702,93 +691,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "gse_control_node.kicad_sch",
-        "name": "gse_control_node",
-        "uuid": "24817451-dfe0-4b9a-9d93-7304529c9d58"
+        "filename": "heater_pad_driver.kicad_sch",
+        "name": "Root",
+        "uuid": "8eb4d071-309e-4301-a91d-2639c3276c8c"
       }
     ],
-    "used_designators": "J16-19,R39,R41,R43-45,D15-21,C40-47,#PWR109,#PWR111,#PWR119-128,Q8-9,F3-4,U12-13",
+    "used_designators": "H1-3",
     "variants": []
   },
   "sheets": [
     [
-      "24817451-dfe0-4b9a-9d93-7304529c9d58",
-      "gse_control_node"
-    ],
-    [
-      "df47027d-81c2-4457-b2a4-c1e06ebb5a1a",
-      "ESP32 Breakout"
-    ],
-    [
-      "ee31919e-6383-4dab-aec3-a18ec94a437b",
-      "Power Regulation"
-    ],
-    [
-      "e6f03911-29ab-479a-bf6e-91fcd28c212a",
-      "ADC 1"
-    ],
-    [
-      "3fe78498-f3da-4a4e-905d-c6815bbc6a4f",
-      "Load Cell 1"
-    ],
-    [
-      "9cf28330-c8ca-424a-aab2-bcebd5b04616",
-      "Fan Control 1"
-    ],
-    [
-      "3178ca55-81b8-4bea-837c-8a6c63e16663",
-      "Fan Control 2"
-    ],
-    [
-      "fe2b7ba1-9565-4f89-9bf9-1d97bef2da17",
-      "Actuator Control 1"
-    ],
-    [
-      "93ade7e9-ef13-409d-a430-89296b231c7f",
-      "Actuator Control 2"
-    ],
-    [
-      "3ca34fcb-848a-442f-9018-9caf10b9e369",
-      "Actuator Control 3"
-    ],
-    [
-      "c4e569fb-235e-4777-b718-8e9c9d97ed61",
-      "Actuator Control 4"
-    ],
-    [
-      "15679307-79a6-41da-a7b4-01439538782b",
-      "Ignitor"
-    ],
-    [
-      "28c3d518-e410-4f76-b365-6a95738a7ad8",
-      "Heater 1"
-    ],
-    [
-      "dc557d0f-2257-48d5-9078-60327222e91e",
-      "Heater 2"
+      "8eb4d071-309e-4301-a91d-2639c3276c8c",
+      "Root"
     ]
   ],
   "text_variables": {},
