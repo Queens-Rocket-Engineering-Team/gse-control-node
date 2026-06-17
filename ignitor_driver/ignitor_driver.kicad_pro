@@ -66,16 +66,10 @@
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 2.0
+          "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -156,13 +150,13 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.75,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.005,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -209,9 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -238,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -501,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "heater_pad_driver.kicad_pro",
+    "filename": "ignitor_driver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -519,7 +506,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -592,13 +579,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -610,6 +597,84 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I2C Address",
+          "name": "I2C Address",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Irated",
+          "name": "Irated",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Isat",
+          "name": "Isat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
           "show": false
         },
         {
@@ -638,8 +703,14 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADC Number",
+          "name": "ADC Number",
           "show": false
         },
         {
@@ -698,18 +769,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "heater_pad_driver.kicad_sch",
-        "name": "Root",
-        "uuid": "8eb4d071-309e-4301-a91d-2639c3276c8c"
+        "filename": "ignitor_driver.kicad_sch",
+        "name": "ignitor_driver",
+        "uuid": "f2cd735c-0e25-4764-86b3-e5b2870dd349"
       }
     ],
-    "used_designators": "R9,R12,D4,#PWR12,#PWR20,#PWR23,K1,Q3,U3,H1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "8eb4d071-309e-4301-a91d-2639c3276c8c",
-      "Root"
+      "f2cd735c-0e25-4764-86b3-e5b2870dd349",
+      "ignitor_driver"
     ]
   ],
   "text_variables": {},
