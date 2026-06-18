@@ -4595,9 +4595,9 @@
 		)
 		(uuid "2f0aae1e-65f2-4a4d-9bad-46b11a915516")
 	)
-	(text "Relay to cut current if NMOS fails"
+	(text "ESTOP relay to cut current if NMOS fails"
 		(exclude_from_sim no)
-		(at 189.992 55.626 0)
+		(at 193.548 54.356 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4635,7 +4635,7 @@
 		)
 		(uuid "9d8bc907-890a-4212-b222-910b636541e6")
 	)
-	(text "FET Rds_on: 3.8mOhms\n3.8mOhms*12.5A*12.5A=594mW"
+	(text "NMOS Rds_on: 3.8mOhms\n3.8mOhms*12.5A*12.5A=594mW"
 		(exclude_from_sim no)
 		(at 187.198 151.638 0)
 		(effects
