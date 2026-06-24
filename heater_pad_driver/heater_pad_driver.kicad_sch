@@ -3074,7 +3074,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Current:ACS713xLCTR-20A"
+		(symbol "Sensor_Current:ACS724xLCTR-30AU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3091,7 +3091,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ACS713xLCTR-20A"
+			(property "Value" "ACS724xLCTR-30AU"
 				(at 2.54 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3115,7 +3115,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS713-Datasheet.ashx?la=en"
+			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3126,7 +3126,7 @@
 					)
 				)
 			)
-			(property "Description" "20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8"
+			(property "Description" "30A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 133mV/A, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3159,7 +3159,7 @@
 					)
 				)
 			)
-			(symbol "ACS713xLCTR-20A_0_1"
+			(symbol "ACS724xLCTR-30AU_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -3172,7 +3172,7 @@
 					)
 				)
 			)
-			(symbol "ACS713xLCTR-20A_1_1"
+			(symbol "ACS724xLCTR-30AU_1_1"
 				(pin passive line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -5831,29 +5831,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1000TCE"
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
+		(property "MPN" ""
 			(at 189.23 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -5865,83 +5843,6 @@
 			)
 		)
 		(property "DCR" ""
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 189.23 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 189.23 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -5975,7 +5876,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ceddc0-4dc2-43a0-9b7d-239b90b97c5e")
@@ -7148,7 +7049,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f0a520-bfb5-4fc4-87e9-32abc09994f2")
@@ -7838,7 +7739,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ca405a-aee2-45db-9a62-450d1120871e")
@@ -7907,7 +7808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Current:ACS713xLCTR-20A")
+		(lib_id "Sensor_Current:ACS724xLCTR-30AU")
 		(at 170.18 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -7928,7 +7829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ACS713xLCTR-20A"
+		(property "Value" "ACS724xLCTR-30AU"
 			(at 178.562 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,7 +7853,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS713-Datasheet.ashx?la=en"
+		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en"
 			(at 170.18 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7963,7 +7864,7 @@
 				)
 			)
 		)
-		(property "Description" "20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8"
+		(property "Description" "30A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 133mV/A, SOIC-8"
 			(at 170.18 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7974,7 +7875,7 @@
 				)
 			)
 		)
-		(property "MPN" "ACS713ELCTR-20A-T"
+		(property "MPN" "ACS724LLCTR-30AU-T"
 			(at 170.18 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8255,29 +8156,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25531"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGJ0103TCE"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
+		(property "MPN" ""
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8289,83 +8168,6 @@
 			)
 		)
 		(property "DCR" ""
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8849,7 +8651,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0afb331-c68d-4173-a467-25bf16fcad21")
 		(property "Reference" "F1"
@@ -8896,17 +8698,6 @@
 		)
 		(property "Description" "Fuse"
 			(at 39.37 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "N/A"
-			(at 39.37 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9128,18 +8919,6 @@
 				(justify left)
 			)
 		)
-		(property "Description_1" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 172.72 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(property "Manufacturer" "ON Semiconductor"
 			(at 172.72 58.42 0)
 			(hide yes)
@@ -9162,28 +8941,6 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 177.8 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 177.8 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -9212,7 +8969,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9a908d5-dc94-4f9d-a2bf-27dd26f1e6cd")
 		(property "Reference" "C1"
@@ -9542,7 +9299,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe6075e0-3392-4b83-b00c-17c4e23233f7")
 		(property "Reference" "D1"
@@ -9601,17 +9358,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C135156"
-			(at 44.45 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9211188f-75ef-4f04-906a-8feba1cba8ac")
 		)
@@ -9650,7 +9396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SK44BL"
+		(property "Value" "SK44BL-TP"
 			(at 180.34 72.1359 90)
 			(show_name no)
 			(do_not_autoplace no)

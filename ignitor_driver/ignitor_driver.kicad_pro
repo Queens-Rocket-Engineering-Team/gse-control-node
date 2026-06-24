@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -607,74 +607,14 @@
         },
         {
           "group_by": false,
-          "label": "DCR",
-          "name": "DCR",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DK_Datasheet_Link",
-          "name": "DK_Datasheet_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DK_Detail_Page",
-          "name": "DK_Detail_Page",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Family",
           "name": "Family",
           "show": false
         },
         {
           "group_by": false,
-          "label": "I2C Address",
-          "name": "I2C Address",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Irated",
-          "name": "Irated",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Isat",
-          "name": "Isat",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFG",
-          "name": "MFG",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFR",
-          "name": "MFR",
           "show": false
         },
         {
@@ -705,12 +645,6 @@
           "group_by": false,
           "label": "Status",
           "name": "Status",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ADC Number",
-          "name": "ADC Number",
           "show": false
         },
         {

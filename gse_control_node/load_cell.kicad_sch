@@ -792,7 +792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Conn_01x05"
 			(at 107.95 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -3357,7 +3357,7 @@
 		(at 92.71 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c175cc8-2c93-4911-8d74-748c6f3122e7")
+		(uuid "0993ca32-4f13-413d-a5fb-96f97de26adf")
 	)
 	(junction
 		(at 176.53 77.47)
@@ -5207,9 +5207,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b673545-1ae8-4f79-b34c-9b5388e39f8c")
 		(property "Reference" "U6"
@@ -5416,9 +5416,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35ea6b2b-9038-4225-b637-4ff150986a39")
@@ -5536,7 +5536,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "5.1k"
 			(at 179.832 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,9 +5781,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6144358b-c765-46a8-910b-d1a3bc35e2c1")
 		(property "Reference" "SW1"
@@ -5887,7 +5887,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "5.1k"
 			(at 179.832 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6114,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 74.676 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +6624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 160.02 119.3801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,9 +6700,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae360e90-46b4-4c81-84cd-b232deabe24d")
 		(property "Reference" "SW2"

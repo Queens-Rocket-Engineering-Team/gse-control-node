@@ -3448,7 +3448,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Current:ACS713xLCTR-20A"
+		(symbol "Sensor_Current:ACS724xLCTR-30AU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3465,7 +3465,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ACS713xLCTR-20A"
+			(property "Value" "ACS724xLCTR-30AU"
 				(at 2.54 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3489,7 +3489,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS713-Datasheet.ashx?la=en"
+			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3500,7 +3500,7 @@
 					)
 				)
 			)
-			(property "Description" "20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8"
+			(property "Description" "30A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 133mV/A, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3533,7 +3533,7 @@
 					)
 				)
 			)
-			(symbol "ACS713xLCTR-20A_0_1"
+			(symbol "ACS724xLCTR-30AU_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -3546,7 +3546,7 @@
 					)
 				)
 			)
-			(symbol "ACS713xLCTR-20A_1_1"
+			(symbol "ACS724xLCTR-30AU_1_1"
 				(pin passive line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -7324,28 +7324,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 194.31 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 194.31 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6dff8dd1-7d8c-4f20-8780-c9f1c9d7879d")
 		)
@@ -7419,28 +7397,6 @@
 			)
 		)
 		(property "Description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A"
-			(at 231.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 231.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 231.14 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7669,7 +7625,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "297c979a-48fa-43d3-abe0-bc7611d69223")
 		(property "Reference" "D2"
@@ -7829,116 +7785,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 252.73 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b2f3cb38-d2a2-48a5-a2b3-70487add3294")
 		)
@@ -8030,28 +7876,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 149.86 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 149.86 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9070d4b6-56e7-4a76-9ff6-3d2921906fcd")
 		)
@@ -8072,7 +7896,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a22c721-0ad1-4969-9d60-de3894d7314e")
@@ -8206,117 +8030,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25531"
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "0402WGJ0103TCE"
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 259.08 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 259.08 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8451,7 +8165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 92.71 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8486,116 +8200,6 @@
 		)
 		(property "MPN" "0402WGF1000TCE"
 			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 92.71 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 92.71 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 92.71 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8675,28 +8279,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 76.2 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 76.2 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8928,18 +8510,6 @@
 				(justify left)
 			)
 		)
-		(property "Description_1" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 238.76 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(property "Manufacturer" "ON Semiconductor"
 			(at 238.76 69.85 0)
 			(hide yes)
@@ -8962,28 +8532,6 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 243.84 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 243.84 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -9070,28 +8618,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 45.72 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 45.72 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ee01b78a-b47a-409d-8203-143715826a8b")
 		)
@@ -9163,28 +8689,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 186.69 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 186.69 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9286,28 +8790,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 149.86 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 149.86 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5a1b66f6-dd27-42da-b77a-2cf5a0d68065")
 		)
@@ -9321,7 +8803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Current:ACS713xLCTR-20A")
+		(lib_id "Sensor_Current:ACS724xLCTR-30AU")
 		(at 198.12 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -9343,8 +8825,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ACS713ELCTR-20A-T"
-			(at 216.916 129.032 0)
+		(property "Value" "ACS724xLCTR-30AU"
+			(at 191.77 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9367,7 +8849,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS713-Datasheet.ashx?la=en"
+		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS724-Datasheet.ashx?la=en"
 			(at 198.12 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9378,7 +8860,7 @@
 				)
 			)
 		)
-		(property "Description" "20A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8"
+		(property "Description" "30A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 133mV/A, SOIC-8"
 			(at 198.12 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9389,29 +8871,7 @@
 				)
 			)
 		)
-		(property "MPN" "ACS713ELCTR-20A-T"
-			(at 198.12 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 198.12 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
+		(property "MPN" "ACS724LLCTR-30AU-T"
 			(at 198.12 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9607,116 +9067,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 257.81 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5f8281b4-0d76-44ce-ab65-c465be34d882")
 		)
@@ -9798,117 +9148,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25531"
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "0402WGJ0103TCE"
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 261.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 261.62 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10154,116 +9394,6 @@
 		)
 		(property "MPN" "0402WGF1000TCE"
 			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 36.83 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 36.83 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 36.83 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10548,18 +9678,6 @@
 				(justify left)
 			)
 		)
-		(property "Description_1" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 241.3 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(property "Manufacturer" "ON Semiconductor"
 			(at 241.3 111.76 0)
 			(hide yes)
@@ -10582,28 +9700,6 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 246.38 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 246.38 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -10768,28 +9864,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 109.22 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 109.22 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "AMC3330DWER"
 			(at 109.22 119.38 0)
 			(hide yes)
@@ -10866,7 +9940,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b2475b7-2e8b-4536-bb19-97eda290edd0")
 		(property "Reference" "C11"
@@ -11055,18 +10129,6 @@
 				(justify left)
 			)
 		)
-		(property "Description_1" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 236.22 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(property "Manufacturer" "ON Semiconductor"
 			(at 236.22 29.21 0)
 			(hide yes)
@@ -11089,28 +10151,6 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -11428,28 +10468,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 118.11 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 118.11 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4225ba6e-980b-4326-bb13-e04daa8776d9")
 		)
@@ -11544,28 +10562,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 36.83 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 36.83 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b27084c9-32c2-4243-8afa-5643b9a5e6cd")
 		)
@@ -11605,7 +10601,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "30k 0.1%"
 			(at 60.96 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11659,116 +10655,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 60.96 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b2b76c8c-0dd5-4d09-937b-424b4601e548")
 		)
@@ -11792,7 +10678,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "94c67b47-9436-4b84-928e-877ecbe58fee")
 		(property "Reference" "D1"
@@ -11861,28 +10747,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 50.8 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 50.8 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9dadbbce-7c8d-44b7-b79a-e3707e3d0f45")
 		)
@@ -11910,7 +10774,7 @@
 		(dnp no)
 		(uuid "9aa94bab-6668-4e8b-a389-fabb50c2596a")
 		(property "Reference" "R3"
-			(at 45.72 139.446 0)
+			(at 44.196 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11919,8 +10783,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 45.72 141.986 0)
+		(property "Value" "10k 0.1%"
+			(at 44.196 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11973,116 +10837,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 49.53 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 49.53 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 49.53 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1e74ae7b-66e7-441a-8c7c-15791c3b68c2")
 		)
@@ -12106,7 +10860,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d57c437-a93a-4afd-8d42-9f7a496b8014")
@@ -12182,7 +10936,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dbd591d-61ab-4a98-a3fe-17664a457c3c")
@@ -12314,28 +11068,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 85.09 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 85.09 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "385010fa-d545-4e95-a5fc-c99504515fd1")
 		)
@@ -12359,7 +11091,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ffc3c5e-fef4-4464-805e-74a67825713e")
 		(property "Reference" "F1"
@@ -12406,39 +11138,6 @@
 		)
 		(property "Description" "Fuse"
 			(at 160.02 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "N/A"
-			(at 160.02 24.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 160.02 24.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 160.02 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12520,28 +11219,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 130.81 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 130.81 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -12709,28 +11386,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 64.77 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 64.77 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "5"
 			(uuid "b445afb1-4f9b-4eaa-82a6-d845a37ef49e")
 		)
@@ -12819,28 +11474,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 43.18 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 43.18 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "741877ef-3084-4a7d-bf66-9dc234ed74b3")
 		)
@@ -12914,28 +11547,6 @@
 			)
 		)
 		(property "Description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A"
-			(at 226.06 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 226.06 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 226.06 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13036,117 +11647,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25531"
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "0402WGJ0103TCE"
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 256.54 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 256.54 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13443,28 +11944,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 90.17 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 90.17 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "437a2cc2-d39e-4a0c-b743-3fbc9375787f")
 		)
@@ -13635,116 +12114,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 38.1 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f8001140-5fee-41ee-9985-bffdf0548d35")
 		)
@@ -13835,116 +12204,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 255.27 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "25cb16cf-14e7-46a5-a2df-49658a72dcae")
 		)
@@ -14018,28 +12277,6 @@
 			)
 		)
 		(property "Description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A"
-			(at 228.6 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 228.6 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 228.6 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14149,116 +12386,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 81.28 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "80b472bd-fcdb-4fec-86ca-d06b4440f462")
 		)
@@ -14338,28 +12465,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 85.09 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 85.09 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c77a899f-dca6-48a0-8e00-2d59bca5f364")
 		)
@@ -14430,28 +12535,6 @@
 			)
 		)
 		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"
-			(at 58.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 58.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 58.42 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14628,28 +12711,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 52.07 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 52.07 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "70096911-e331-4acd-b503-8c0d914607b2")
 		)
@@ -14720,28 +12781,6 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 52.07 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 52.07 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 52.07 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14832,28 +12871,6 @@
 				)
 			)
 		)
-		(property "DK_Datasheet_Link" ""
-			(at 186.69 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 186.69 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "75992983-41a1-4f1b-ac26-96853b142b33")
 		)
@@ -14924,28 +12941,6 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 118.11 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 118.11 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 118.11 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15054,9 +13049,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f2cb3ac1-5ef6-46f0-902c-7781837445ca")
 		(property "Reference" "C5"
@@ -15104,28 +13099,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 76.2 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
 			(at 76.2 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15221,28 +13194,6 @@
 		)
 		(property "MPN" "LM4040C25FTA"
 			(at 33.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 33.02 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 33.02 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15429,116 +13380,6 @@
 		)
 		(property "MPN" "0402WGF1000TCE"
 			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADC Number" ""
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I2C Address" ""
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Irated" ""
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG" ""
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" ""
-			(at 50.8 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 50.8 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 50.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

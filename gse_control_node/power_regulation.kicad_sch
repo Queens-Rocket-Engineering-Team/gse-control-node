@@ -5792,8 +5792,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 80.01 167.894 0)
+		(property "Value" "100k 0.1%"
+			(at 79.248 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6221,7 +6221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "100k"
 			(at 74.93 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6607,9 +6607,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "181dec13-9315-4cdc-85b1-eb1b59e4b490")
 		(property "Reference" "D5"
@@ -7152,9 +7152,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b016367-322a-48a8-b0b2-90a2ca975d2a")
 		(property "Reference" "F1"
@@ -7673,7 +7673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.09kΩ"
+		(property "Value" "9.09k 0.1%"
 			(at 80.264 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7919,9 +7919,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "497bf2ed-9410-4f4e-8074-4fb4332d5cdb")
 		(property "Reference" "L2"
@@ -8769,9 +8769,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "582f19a2-1f2e-4c89-a1e7-63089e3c28c0")
 		(property "Reference" "Q1"
@@ -9222,7 +9222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24kΩ"
+		(property "Value" "24k 0.1%"
 			(at 80.264 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10286,9 +10286,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f8aea7f-4a33-40d0-a1a2-9701a019935c")
 		(property "Reference" "U4"
@@ -10797,9 +10797,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57d3873-03e0-4ce6-8280-341f7d57ac4d")
@@ -10982,7 +10982,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.3k"
 			(at 262.382 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11075,7 +11075,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "39kΩ"
+		(property "Value" "39k"
 			(at 110.236 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11506,7 +11506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 58.42 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11752,8 +11752,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 80.01 103.124 0)
+		(property "Value" "100k 0.1%"
+			(at 79.502 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12103,9 +12103,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd35695d-75dd-42d4-94d6-f677cb463c8f")
 		(property "Reference" "D6"
@@ -12567,7 +12567,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7f529ab-58cc-4b3c-9dd5-a9751cae1130")
 		(property "Reference" "C55"
@@ -12823,9 +12823,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e95f6c38-c8e1-430d-a0f3-a246cc053589")
 		(property "Reference" "L1"
@@ -12930,7 +12930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.2kΩ"
+		(property "Value" "1.2k"
 			(at 196.342 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)

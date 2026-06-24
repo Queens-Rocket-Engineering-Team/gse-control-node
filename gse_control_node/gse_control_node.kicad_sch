@@ -3940,7 +3940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.3k"
 			(at 80.01 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 110.49 33.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4848,7 +4848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.3k"
 			(at 80.01 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5018,7 +5018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.3k"
 			(at 80.01 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +5111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 118.618 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +5440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.3k"
 			(at 80.01 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)

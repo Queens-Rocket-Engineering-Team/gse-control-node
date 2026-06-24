@@ -3556,7 +3556,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 124.46 119.126 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2050,7 +2050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "100k"
 			(at 74.93 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2126,9 +2126,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123455a5-4e65-4d50-b486-ad93b28fbc16")
@@ -2240,7 +2240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "100k"
 			(at 72.39 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,9 +2629,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4923d332-a3b7-45cc-b372-79860612ce91")
 		(property "Reference" "Q6"
@@ -2831,7 +2831,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 58.166 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2984,9 +2984,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc32878-d625-4a5e-b88e-b7cfe1716603")
@@ -3097,7 +3097,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 152.4 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,9 +3173,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fa2a183-08e1-47c6-a0a5-59f206f1099b")
 		(property "Reference" "Q8"
@@ -3299,7 +3299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "100k"
 			(at 158.75 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3390,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 60.706 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +3481,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 68.58 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,9 +3557,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c67bf59-50d3-48f9-9ba0-ae32b7b635f2")
 		(property "Reference" "Q10"
@@ -3744,9 +3744,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb2c5ab-85f5-404b-a08b-50e0c6cd7aa1")
@@ -3857,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 66.04 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4181,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 144.526 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
