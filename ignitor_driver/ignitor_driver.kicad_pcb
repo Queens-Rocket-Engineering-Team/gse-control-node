@@ -1584,6 +1584,378 @@
 			)
 		)
 	)
+	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(layer "F.Cu")
+		(uuid "1e7e4516-0f81-478d-a00a-528ac83248fb")
+		(at 167.325 105.525 -90)
+		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A, example for new mpn: 39-28-x02x, 1 Pins per row, Mounting:  (http://www.molex.com/pdm_docs/sd/039281043_sd.pdf)")
+		(tags "connector Molex Mini-Fit_Jr vertical")
+		(property "Reference" "J5"
+			(at 0 10.325 180)
+			(layer "F.SilkS")
+			(uuid "76342d11-dbc6-459b-9dea-6896385f3b2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Lockout"
+			(at 0 9.95 90)
+			(layer "F.Fab")
+			(uuid "c72ef0c3-3a77-4c12-9d23-dd9296c73734")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8cfb2fe-38d8-4cbf-9513-4e9ca2935512")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20d1d997-314e-4d3f-960c-f22c25047591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
+		(path "/49b31430-e43f-464b-a8a2-72a078c0f888")
+		(sheetname "/")
+		(sheetfile "ignitor_driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.81 8.86)
+			(end 0 8.86)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "491b1f90-c155-4029-b8ef-40ea04bc6be4")
+		)
+		(fp_line
+			(start 1.81 8.86)
+			(end 0 8.86)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2668d138-2b8e-4409-af08-caf462c88451")
+		)
+		(fp_line
+			(start -2.81 7.46)
+			(end -1.81 7.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "725e72e1-7bf8-4b05-b177-ab734defc476")
+		)
+		(fp_line
+			(start -1.81 7.46)
+			(end -1.81 8.86)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3996dc8e-4aa1-4d6e-b069-c3882279a5a4")
+		)
+		(fp_line
+			(start 1.81 7.46)
+			(end 1.81 8.86)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9854d1c-6b9f-49e5-8890-47ed28df4834")
+		)
+		(fp_line
+			(start 2.81 7.46)
+			(end 1.81 7.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1547974d-7ad6-4307-9502-9fc01d6d40e7")
+		)
+		(fp_line
+			(start -2.81 -2.36)
+			(end -2.81 7.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "473d64d7-bc03-4a5a-aaf6-881cbcac08ad")
+		)
+		(fp_line
+			(start 0 -2.36)
+			(end -2.81 -2.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fe8ce2bf-bf0b-4880-878b-9729519e69e9")
+		)
+		(fp_line
+			(start 0 -2.36)
+			(end 2.81 -2.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f68508d4-04e2-41a0-82fe-9dd1acddd5e0")
+		)
+		(fp_line
+			(start 2.81 -2.36)
+			(end 2.81 7.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "146bf641-8eef-4556-9c15-6937986b6ffa")
+		)
+		(fp_line
+			(start -3.05 -2.6)
+			(end -3.05 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d937acd-0387-4563-9926-1eec239ec091")
+		)
+		(fp_line
+			(start -0.2 -2.6)
+			(end -3.05 -2.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "711d4f47-e1a3-420c-a287-bbd0a2923f33")
+		)
+		(fp_rect
+			(start -3.2 -2.75)
+			(end 3.2 9.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a067f055-71d5-4ac5-8b61-f5579405722f")
+		)
+		(fp_line
+			(start -1.7 8.75)
+			(end 1.7 8.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2eabfe6-b3ec-4be8-891f-ff9f69ab48ee")
+		)
+		(fp_line
+			(start 1.7 8.75)
+			(end 1.7 7.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "040952a2-1b3a-4071-be5f-e0d1a0bb9905")
+		)
+		(fp_line
+			(start -1.7 7.35)
+			(end -1.7 8.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "359f2599-60d4-4487-b8c2-d78c32aba9bb")
+		)
+		(fp_line
+			(start -1.65 6.5)
+			(end -1.65 4.025)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b2d1faf-278e-4e61-b197-3057f97772d9")
+		)
+		(fp_line
+			(start 1.65 6.5)
+			(end -1.65 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f804b7d1-23f2-44c4-b5b1-20a49d4c87d6")
+		)
+		(fp_line
+			(start -1.65 4.025)
+			(end -0.825 3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae344838-3d67-40e0-8930-5e312a69349c")
+		)
+		(fp_line
+			(start 1.65 4.025)
+			(end 1.65 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a1723849-3d52-4377-93bc-e75aab8fe957")
+		)
+		(fp_line
+			(start -0.825 3.2)
+			(end 0.825 3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02d1efb9-d807-4198-b6b9-2fe5537ee481")
+		)
+		(fp_line
+			(start 0.825 3.2)
+			(end 1.65 4.025)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "33f23ea3-90a0-4cb0-b6cf-c30af3ddcf82")
+		)
+		(fp_line
+			(start -3.05 -2.6)
+			(end -3.05 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "55aed624-3488-43a5-826d-a250ca25e5ae")
+		)
+		(fp_line
+			(start -0.2 -2.6)
+			(end -3.05 -2.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "40308eca-6ef7-47d5-adb9-fd9f9b9353b1")
+		)
+		(fp_rect
+			(start -1.65 -1)
+			(end 1.65 2.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5e2f20fe-de8a-4f08-8d80-6c480246468a")
+		)
+		(fp_rect
+			(start -2.7 -2.25)
+			(end 2.7 7.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "052f0d74-9feb-413a-9e20-118a7ffc6a4f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.55 90)
+			(layer "F.Fab")
+			(uuid "9087f561-6bb0-489e-af4c-cf55845423b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 270)
+			(size 2.7 3.3)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.092593)
+			(net "Net-(J2-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "3d1e13a4-4f17-4fda-a675-9639110764e5")
+		)
+		(pad "2" thru_hole oval
+			(at 0 5.5 270)
+			(size 2.7 3.3)
+			(drill 1.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(J5-Pin_2)")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
+			(uuid "e291dc01-f5d4-44d5-b4cc-d04350707306")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "2261910a-329a-46a5-a0bc-b4aae88c9e93")
@@ -10339,7 +10711,7 @@
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A, example for new mpn: 39-28-x02x, 1 Pins per row, Mounting:  (http://www.molex.com/pdm_docs/sd/039281043_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr vertical")
 		(property "Reference" "J4"
-			(at -4.1 -1.85 0)
+			(at -4.1 2.45 0)
 			(layer "F.SilkS")
 			(uuid "02f3f65b-92cd-4905-850f-096d64a7e92b")
 			(effects
@@ -10349,7 +10721,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x01"
+		(property "Value" "Ignitor"
 			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "cdf70a1c-d8c4-4416-a8b1-4c638c1a70c9")
@@ -11896,7 +12268,7 @@
 			(drill 1.78)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(J5-Pin_2)")
 			(pintype "passive")
 			(uuid "beaf8a23-2b53-47d6-8e02-3ad8aa6c9a0b")
 		)
@@ -11906,7 +12278,7 @@
 			(drill 1.78)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(J5-Pin_2)")
 			(pintype "passive")
 			(uuid "832a3956-6687-4494-a6b6-49bbc0a7565b")
 		)
@@ -14186,6 +14558,42 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "01ed1281-f738-4905-9f83-0df79644cecc")
+	)
+	(gr_text "GND_ISO"
+		(at 110.6 110.6 0)
+		(layer "F.SilkS")
+		(uuid "2512c73e-df92-49dc-bda0-8e61a25d298d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V_ISO"
+		(at 161.3 110.6 0)
+		(layer "F.SilkS")
+		(uuid "142ae0e1-7b93-43b8-8fe6-d61deafb8896")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CURR RESP RESN GND GND\nSAFE24 RUN PRIME 24V 5V"
+		(at 146.7 111.235 0)
+		(layer "B.SilkS")
+		(uuid "244d6879-aa70-4ea9-a155-01647d7be04c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 143.915 96.25)
@@ -17035,6 +17443,30 @@
 		(net "Net-(Q1-G)")
 		(uuid "5e98c5df-5304-454d-8334-7aa8a2ec4f22")
 	)
+	(segment
+		(start 161.825 105.525)
+		(end 161.825 99.935)
+		(width 2)
+		(layer "F.Cu")
+		(net "Net-(J5-Pin_2)")
+		(uuid "2245796f-0a15-4a0a-ac6c-6537199dc193")
+	)
+	(segment
+		(start 164.8 96.96)
+		(end 168.2 96.96)
+		(width 2)
+		(layer "F.Cu")
+		(net "Net-(J5-Pin_2)")
+		(uuid "6d64efca-897e-47b6-9f77-6bf5f1249a36")
+	)
+	(segment
+		(start 161.825 99.935)
+		(end 164.8 96.96)
+		(width 2)
+		(layer "F.Cu")
+		(net "Net-(J5-Pin_2)")
+		(uuid "e392e616-799f-4b28-b04a-9e5190be5c49")
+	)
 	(zone
 		(net "Net-(J4-Pin_2)")
 		(layer "F.Cu")
@@ -17116,25 +17548,25 @@
 		)
 		(polygon
 			(pts
-				(xy 158.5 121) (xy 158.5 101.4) (xy 164.5 95.4) (xy 170.5 95.4) (xy 170.5 121)
+				(xy 158.5 121) (xy 158.5 111.8) (xy 166.2 104.1) (xy 170.5 104.1) (xy 170.5 121)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 170.443039 95.419685) (xy 170.488794 95.472489) (xy 170.5 95.524) (xy 170.5 120.876) (xy 170.480315 120.943039)
+				(xy 170.443039 104.119685) (xy 170.488794 104.172489) (xy 170.5 104.224) (xy 170.5 120.876) (xy 170.480315 120.943039)
 				(xy 170.427511 120.988794) (xy 170.376 121) (xy 158.624 121) (xy 158.556961 120.980315) (xy 158.511206 120.927511)
-				(xy 158.5 120.876) (xy 158.5 101.451362) (xy 158.519685 101.384323) (xy 158.536319 101.363681) (xy 164.463681 95.436319)
-				(xy 164.525004 95.402834) (xy 164.551362 95.4) (xy 170.376 95.4)
+				(xy 158.5 120.876) (xy 158.5 111.851362) (xy 158.519685 111.784323) (xy 158.536319 111.763681) (xy 166.163681 104.136319)
+				(xy 166.225004 104.102834) (xy 166.251362 104.1) (xy 170.376 104.1)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 170.443039 95.419685) (xy 170.488794 95.472489) (xy 170.5 95.524) (xy 170.5 120.876) (xy 170.480315 120.943039)
+				(xy 170.443039 104.119685) (xy 170.488794 104.172489) (xy 170.5 104.224) (xy 170.5 120.876) (xy 170.480315 120.943039)
 				(xy 170.427511 120.988794) (xy 170.376 121) (xy 158.624 121) (xy 158.556961 120.980315) (xy 158.511206 120.927511)
-				(xy 158.5 120.876) (xy 158.5 101.451362) (xy 158.519685 101.384323) (xy 158.536319 101.363681) (xy 164.463681 95.436319)
-				(xy 164.525004 95.402834) (xy 164.551362 95.4) (xy 170.376 95.4)
+				(xy 158.5 120.876) (xy 158.5 111.851362) (xy 158.519685 111.784323) (xy 158.536319 111.763681) (xy 166.163681 104.136319)
+				(xy 166.225004 104.102834) (xy 166.251362 104.1) (xy 170.376 104.1)
 			)
 		)
 	)
