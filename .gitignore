@@ -6,7 +6,7 @@
 *.kicad_prl
 
 # JLCPCB plugin Gerber/BOM output dir
-production/
+**/production/
 
 # Locks
 ~*.lck
