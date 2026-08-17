@@ -3598,12 +3598,6 @@
 		(uuid "43b70eb5-eca1-4859-84ac-1690a8386321")
 	)
 	(junction
-		(at 67.31 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47bc1eb8-3626-4c6a-847e-3d25058ee8f6")
-	)
-	(junction
 		(at 95.25 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3650,12 +3644,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63121c22-2e8a-4fa8-9f17-a86bcedce17a")
-	)
-	(junction
-		(at 67.31 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "633c05a2-dc52-414c-a602-7dc2052226d8")
 	)
 	(junction
 		(at 55.88 48.26)
@@ -3782,6 +3770,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa82b68d-bba4-41b9-ad5b-c111f586bf76")
+	)
+	(no_connect
+		(at 67.31 106.68)
+		(uuid "06dc64d2-b027-49a5-b952-8f18648a26b7")
+	)
+	(no_connect
+		(at 67.31 171.45)
+		(uuid "8097d817-934e-402d-9ea8-69f16ecd510e")
 	)
 	(no_connect
 		(at 212.09 48.26)
@@ -4869,16 +4865,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 106.68) (xy 67.31 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea4b5b9-b598-471f-9c3c-fa04a85aaf2c")
-	)
-	(wire
-		(pts
 			(xy 76.2 163.83) (xy 78.74 163.83)
 		)
 		(stroke
@@ -4909,16 +4895,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 171.45) (xy 73.66 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c39ca7f4-50f6-42ea-911b-ce1d7459399e")
-	)
-	(wire
-		(pts
 			(xy 212.09 40.64) (xy 213.36 40.64)
 		)
 		(stroke
@@ -4936,16 +4912,6 @@
 			(type default)
 		)
 		(uuid "c835517e-4291-4f7a-b3c1-3e2eb2396716")
-	)
-	(wire
-		(pts
-			(xy 67.31 171.45) (xy 67.31 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c84d5b5c-44d1-4d41-8407-e46bd6f08b51")
 	)
 	(wire
 		(pts
@@ -5086,16 +5052,6 @@
 			(type default)
 		)
 		(uuid "d6dfcf7f-36aa-480b-b1c4-c6d4febe34a2")
-	)
-	(wire
-		(pts
-			(xy 72.39 106.68) (xy 73.66 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fb699c-2283-44de-80f2-86992b73ce9f")
 	)
 	(wire
 		(pts
@@ -5523,28 +5479,6 @@
 			)
 		)
 	)
-	(hierarchical_label "12_POWER_GOOD"
-		(shape output)
-		(at 67.31 176.53 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36a846da-85ca-4dc3-8d9d-7f5dcc6b7732")
-	)
-	(hierarchical_label "5.17_POWER_GOOD"
-		(shape output)
-		(at 67.31 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8bac55cf-0626-4749-a282-a3265b407c08")
-	)
 	(rule_area
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5858,8 +5792,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 80.01 167.894 0)
+		(property "Value" "100k 0.1%"
+			(at 79.248 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6287,7 +6221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "100k"
 			(at 74.93 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,9 +6607,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "181dec13-9315-4cdc-85b1-eb1b59e4b490")
 		(property "Reference" "D5"
@@ -7024,98 +6958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 83.82 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "2195284c-6931-405e-8ff8-6f7829dcb746")
-		(property "Reference" "C15"
-			(at 85.852 42.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 85.852 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 83.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C161937.pdf"
-			(at 83.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 83.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C161937"
-			(at 83.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2102de61-3a9e-40a5-b3c7-e088e6d23e95")
-		)
-		(pin "1"
-			(uuid "9a97d0b3-6eb5-4214-8aee-c2a943e7cabb")
-		)
-		(instances
-			(project "gse_control_node"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 95.25 106.68 0)
 		(unit 1)
@@ -7310,9 +7152,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b016367-322a-48a8-b0b2-90a2ca975d2a")
 		(property "Reference" "F1"
@@ -7831,7 +7673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.09kΩ"
+		(property "Value" "9.09k 0.1%"
 			(at 80.264 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,9 +7919,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "497bf2ed-9410-4f4e-8074-4fb4332d5cdb")
 		(property "Reference" "L2"
@@ -8927,9 +8769,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "582f19a2-1f2e-4c89-a1e7-63089e3c28c0")
 		(property "Reference" "Q1"
@@ -9091,83 +8933,6 @@
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 73.66 106.68 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c64d00f-e4bc-49d6-a381-d12c25a98faf")
-		(property "Reference" "#PWR037"
-			(at 69.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 74.676 108.712 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 73.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d48565e-5673-4169-9c8c-521cb745868c")
-		)
-		(instances
-			(project "gse_control_node"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9457,7 +9222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24kΩ"
+		(property "Value" "24k 0.1%"
 			(at 80.264 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9548,7 +9313,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS78450QDBVRQ1"
+		(property "Value" "TPS7A2050PDBVR"
 			(at 232.156 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9569,7 +9334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps784-q1.pdf"
+		(property "Datasheet" ""
 			(at 233.68 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9580,7 +9345,7 @@
 				)
 			)
 		)
-		(property "Description" "300-mA, 115mV Dropout Voltage, 5V, SOT-23-5"
+		(property "Description" ""
 			(at 233.68 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9591,7 +9356,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2877783"
+		(property "LCSC" "C2864504"
 			(at 233.68 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10521,9 +10286,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f8aea7f-4a33-40d0-a1a2-9701a019935c")
 		(property "Reference" "U4"
@@ -11032,9 +10797,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57d3873-03e0-4ce6-8280-341f7d57ac4d")
@@ -11217,7 +10982,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.3k"
 			(at 262.382 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11310,7 +11075,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "39kΩ"
+		(property "Value" "39k"
 			(at 110.236 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11642,98 +11407,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 69.85 171.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c362b1e6-890e-49f0-86cd-7a97069675f7")
-		(property "Reference" "R11"
-			(at 72.136 173.482 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 72.644 175.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C122538"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2cd9f5c-43b6-4e60-adf4-72ec233ec65e")
-		)
-		(pin "1"
-			(uuid "77f6f060-4958-4bca-9daa-85d4bd459f89")
-		)
-		(instances
-			(project "gse_control_node"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 115.57 0)
 		(unit 1)
@@ -11833,7 +11506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 58.42 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12079,8 +11752,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 80.01 103.124 0)
+		(property "Value" "100k 0.1%"
+			(at 79.502 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12430,9 +12103,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd35695d-75dd-42d4-94d6-f677cb463c8f")
 		(property "Reference" "D6"
@@ -12604,98 +12277,6 @@
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 69.85 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e05576d9-ba05-4c5a-95ab-28c76b4fb6b6")
-		(property "Reference" "R10"
-			(at 72.136 108.712 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 72.644 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 69.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C122538"
-			(at 69.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b05aa66e-6745-45f9-9a01-4a26bb46f030")
-		)
-		(pin "1"
-			(uuid "2ba13ad7-8d4d-4e86-912b-c7a2ea1bed37")
-		)
-		(instances
-			(project "gse_control_node"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12979,6 +12560,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 83.82 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7f529ab-58cc-4b3c-9dd5-a9751cae1130")
+		(property "Reference" "C55"
+			(at 85.852 42.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 85.852 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EEU-FR1H101B"
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df9066c2-e1c6-4332-972a-eb9bf03bd6f5")
+		)
+		(pin "1"
+			(uuid "fe34e0ac-aa04-4c1f-94db-f14f40cdf380")
+		)
+		(instances
+			(project "gse_control_node"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 180.34 95.25 0)
 		(unit 1)
@@ -13150,9 +12823,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e95f6c38-c8e1-430d-a0f3-a246cc053589")
 		(property "Reference" "L1"
@@ -13257,7 +12930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.2kΩ"
+		(property "Value" "1.2k"
 			(at 196.342 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13399,83 +13072,6 @@
 			(project "gse_control_node"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 73.66 171.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f184eb94-6dd5-4dc9-b068-41fd8f7e159a")
-		(property "Reference" "#PWR038"
-			(at 69.85 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 74.676 173.482 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 73.66 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23200151-a45f-46eb-adee-7a35c874e45b")
-		)
-		(instances
-			(project "gse_control_node"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/ee31919e-6383-4dab-aec3-a18ec94a437b"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)

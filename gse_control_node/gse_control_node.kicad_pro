@@ -664,6 +664,24 @@
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -756,27 +774,35 @@
     ],
     [
       "9cf28330-c8ca-424a-aab2-bcebd5b04616",
-      "Fan Control 1"
+      "Fan Control"
     ],
     [
-      "3178ca55-81b8-4bea-837c-8a6c63e16663",
-      "Fan Control 2"
+      "d0ae3be2-0c37-40be-b329-104bdad1aacc",
+      "Heater 2"
     ],
     [
       "fe2b7ba1-9565-4f89-9bf9-1d97bef2da17",
       "Actuator Control 1"
     ],
     [
-      "93ade7e9-ef13-409d-a430-89296b231c7f",
-      "Actuator Control 2"
+      "1e137c02-79c7-4b96-bd27-1c498e875a62",
+      "ADC 2"
     ],
     [
-      "3ca34fcb-848a-442f-9018-9caf10b9e369",
-      "Actuator Control 3"
+      "1a724e4a-1306-43a0-8dad-f8c6c03ad7df",
+      "ADC 3"
     ],
     [
-      "c4e569fb-235e-4777-b718-8e9c9d97ed61",
-      "Actuator Control 4"
+      "56958adc-8420-4d45-9526-bd6c58750888",
+      "ADC 4"
+    ],
+    [
+      "15679307-79a6-41da-a7b4-01439538782b",
+      "Ignitor"
+    ],
+    [
+      "28c3d518-e410-4f76-b365-6a95738a7ad8",
+      "Heater 1"
     ]
   ],
   "text_variables": {},
